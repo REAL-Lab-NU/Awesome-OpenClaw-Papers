@@ -99,20 +99,20 @@ timeline
 
 | Title | Date | Key Contribution | Links |
 |:------|:----:|:-----------------|:-----:|
-| OpenClaw-RL: Train Any Agent Simply by Talking | Mar 2026 | Async 4-loop live RL; 4.76x personalization via Binary RL + OPD | [Paper](https://arxiv.org/abs/2603.10165) [Code](https://github.com/Gen-Verse/OpenClaw-RL) |
-| OpenCLAW-P2P: A Decentralized Framework for Collective AI Intelligence | Mar 2026 | Kademlia DHT + federated learning + BFT voting + Lean 4 verification | [Paper](https://www.researchgate.net/publication/401449080) |
-| Systems-Level Attack Surface of Edge Agent Deployments on IoT | Feb 2026 | First IoT edge-agent security study; 0KB egress, all MQTT attacks succeed | [Paper](https://arxiv.org/abs/2602.22525) |
+| OpenClaw-RL: Train Any Agent Simply by Talking | Mar 2026 | Async RL from live interaction signals; combines evaluative and directive rewards | [Paper](https://arxiv.org/abs/2603.10165) [Code](https://github.com/Gen-Verse/OpenClaw-RL) |
+| OpenCLAW-P2P: A Decentralized Framework for Collective AI Intelligence | Mar 2026 | Decentralized agent network with DHT, federated learning, and formal verification | [Paper](https://www.researchgate.net/publication/401449080) |
+| Systems-Level Attack Surface of Edge Agent Deployments on IoT | Feb 2026 | Deployment architecture is the primary security determinant for edge agents | [Paper](https://arxiv.org/abs/2602.22525) |
 
 ### 📦 Skill Ecosystem & Supply Chain (6)
 
 | Title | Date | Key Contribution | Links |
 |:------|:----:|:-----------------|:-----:|
-| SkillFortify: Formal Analysis and Supply Chain Security | Feb 2026 | First formal skill supply-chain framework (DY-Skill); 96.95% F1, 0% FP | [Paper](https://arxiv.org/abs/2603.00195) [Code](https://github.com/varun369/skillfortify) |
-| SkillProbe: Security Auditing via Multi-Agent Collaboration | Mar 2026 | >90% popular skills fail audit; 75K risk edges form giant component | [Paper](https://arxiv.org/abs/2603.21019) |
-| SkillClone: Multi-Modal Clone Detection ⭐ **ASE 2026** | Mar 2026 | F1=0.939; 258K clone pairs; ecosystem 3.5x inflated | [Paper](https://arxiv.org/abs/2603.22447) |
-| Malicious Or Not: Repository Context for Skill Classification | Mar 2026 | 238K skills; repo-context reduces malicious rate from 41.9% to 0.52% | [Paper](https://arxiv.org/abs/2603.16572) |
-| SkillNet: Create, Evaluate, and Connect AI Skills | Feb 2026 | Unified ontology with 150K+ skills; +40% reward, -30% steps vs ReAct | [Paper](https://arxiv.org/abs/2603.04448) [Code](https://github.com/zjunlp/SkillNet) |
-| SkillReducer: Optimizing LLM Agent Skills for Token Efficiency | Mar 2026 | 48% description + 39% body compression while improving quality +2.8% | [Paper](https://arxiv.org/abs/2603.29919) |
+| SkillFortify: Formal Analysis and Supply Chain Security | Feb 2026 | First formal supply-chain framework with Dolev-Yao attacker model for skills | [Paper](https://arxiv.org/abs/2603.00195) [Code](https://github.com/varun369/skillfortify) |
+| SkillProbe: Security Auditing via Multi-Agent Collaboration | Mar 2026 | Multi-agent auditing reveals most popular skills fail rigorous security checks | [Paper](https://arxiv.org/abs/2603.21019) |
+| SkillClone: Multi-Modal Clone Detection ⭐ **ASE 2026** | Mar 2026 | First multi-modal clone detector; massive ecosystem inflation from cloning | [Paper](https://arxiv.org/abs/2603.22447) |
+| Malicious Or Not: Repository Context for Skill Classification | Mar 2026 | Largest skill ecosystem study; repo-context dramatically reduces false positives | [Paper](https://arxiv.org/abs/2603.16572) |
+| SkillNet: Create, Evaluate, and Connect AI Skills | Feb 2026 | Unified skill ontology with multi-dimensional quality evaluation framework | [Paper](https://arxiv.org/abs/2603.04448) [Code](https://github.com/zjunlp/SkillNet) |
+| SkillReducer: Optimizing LLM Agent Skills for Token Efficiency | Mar 2026 | Skill debloating framework compresses descriptions while preserving functionality | [Paper](https://arxiv.org/abs/2603.29919) |
 
 <p align="right"><a href="#contents">Back to Top</a></p>
 
@@ -126,32 +126,32 @@ timeline
 
 | Title | Date | Key Contribution | Links |
 |:------|:----:|:-----------------|:-----:|
-| Uncovering Security Threats in Autonomous Agents (FASA) | Mar 2026 | Tri-layered risk taxonomy (AI/Software/Information); FASA 4-layer defense | [Paper](https://arxiv.org/abs/2603.12644) [Code](https://github.com/NY1024/ClawGuard) |
-| Don't Let the Claw Grip Your Hand | Mar 2026 | 47 scenarios across 6 LLMs; 17-83% native defense, HITL boosts to 91.5% | [Paper](https://arxiv.org/abs/2603.10387) [Code](https://github.com/S2yyyy/OpenClaw-Analysis) |
-| Taming OpenClaw: Security Analysis and Mitigation | Mar 2026 | Five-stage lifecycle taxonomy; point defenses fail against cross-stage attacks | [Paper](https://arxiv.org/abs/2603.11619) |
-| A Systematic Taxonomy of Security Vulnerabilities | Mar 2026 | 190 advisories; composed RCE chain and 3 exec allowlist bypasses found | [Paper](https://arxiv.org/abs/2603.27517) |
-| Defensible Design for OpenClaw | Mar 2026 | 4 risk classes, 4 engineering principles, 4 research workstreams | [Paper](https://arxiv.org/abs/2603.13151) |
-| A Trajectory-Based Safety Audit of Clawdbot | Feb 2026 | 58.9% overall pass, 0% on intent-misunderstanding scenarios | [Paper](https://arxiv.org/abs/2602.14364) [Code](https://github.com/tychenn/clawdbot_report) |
-| From Assistant to Double Agent (PASB) | Feb 2026 | Combined attacks achieve 66.8% ASR; LTM leaks more than STM (~72% vs ~52%) | [Paper](https://arxiv.org/abs/2602.08412) [Code](https://github.com/AstorYH/PASB) |
-| ClawTrap: MITM-Based Red-Teaming Framework | Mar 2026 | First MITM red-team for agents; weak models deceived, strong detect tampering | [Paper](https://arxiv.org/abs/2603.18762) |
+| Uncovering Security Threats in Autonomous Agents (FASA) | Mar 2026 | Tri-layered risk taxonomy with full-lifecycle defense architecture | [Paper](https://arxiv.org/abs/2603.12644) [Code](https://github.com/NY1024/ClawGuard) |
+| Don't Let the Claw Grip Your Hand | Mar 2026 | Empirical red-teaming across six LLMs; human-in-the-loop defense layer | [Paper](https://arxiv.org/abs/2603.10387) [Code](https://github.com/S2yyyy/OpenClaw-Analysis) |
+| Taming OpenClaw: Security Analysis and Mitigation | Mar 2026 | Five-stage lifecycle threat model; point defenses fail cross-stage attacks | [Paper](https://arxiv.org/abs/2603.11619) |
+| A Systematic Taxonomy of Security Vulnerabilities | Mar 2026 | Analysis of 190 security advisories; OpenClaw-specific kill chain | [Paper](https://arxiv.org/abs/2603.27517) |
+| Defensible Design for OpenClaw | Mar 2026 | Position paper with four risk classes and engineering research agenda | [Paper](https://arxiv.org/abs/2603.13151) |
+| A Trajectory-Based Safety Audit of Clawdbot | Feb 2026 | Trajectory-level safety evaluation; complete failure on intent misunderstanding | [Paper](https://arxiv.org/abs/2602.14364) [Code](https://github.com/tychenn/clawdbot_report) |
+| From Assistant to Double Agent (PASB) | Feb 2026 | First end-to-end benchmark for personalized agent security | [Paper](https://arxiv.org/abs/2602.08412) [Code](https://github.com/AstorYH/PASB) |
+| ClawTrap: MITM-Based Red-Teaming Framework | Mar 2026 | First network-layer red-teaming framework for agent systems | [Paper](https://arxiv.org/abs/2603.18762) |
 
 ### 🔥 Adversarial Attacks (4)
 
 | Title | Date | Key Contribution | Links |
 |:------|:----:|:-----------------|:-----:|
-| Clawdrain: Token Exhaustion via Tool-Calling Chains | Mar 2026 | 6-9x token amplification in production; agents show emergent scripting defense | [Paper](https://arxiv.org/abs/2603.00902) |
-| ClawWorm: Self-Propagating Attacks Across Agent Ecosystems | Mar 2026 | First self-replicating worm; 64.5% ASR across 1,800 trials, R₀>1 | [Paper](https://arxiv.org/abs/2603.15727) |
-| David vs. Goliath: Agent-to-Agent Jailbreaking (SLINGSHOT) | Feb 2026 | 67% ASR via CISPO RL; zero-shot transfer to Gemini 2.5 Flash (56%) | [Paper](https://arxiv.org/abs/2602.02395) |
-| HEARTBEAT: Silent Memory Pollution via Background Execution | Mar 2026 | 75.6% cross-session ASR without prompt injection; heartbeat as covert channel | [Paper](https://arxiv.org/abs/2603.23064) |
+| Clawdrain: Token Exhaustion via Tool-Calling Chains | Mar 2026 | Trojanized skill causes massive token amplification; denial-of-wallet attack | [Paper](https://arxiv.org/abs/2603.00902) |
+| ClawWorm: Self-Propagating Attacks Across Agent Ecosystems | Mar 2026 | First self-replicating worm for a production agent framework | [Paper](https://arxiv.org/abs/2603.15727) |
+| David vs. Goliath: Agent-to-Agent Jailbreaking (SLINGSHOT) | Feb 2026 | RL-trained jailbreak transfers zero-shot to closed-source models | [Paper](https://arxiv.org/abs/2602.02395) |
+| HEARTBEAT: Silent Memory Pollution via Background Execution | Mar 2026 | Exploits heartbeat cycle as covert channel for persistent backdoor injection | [Paper](https://arxiv.org/abs/2603.23064) |
 
 ### 🛡️ Defensive Architectures (4)
 
 | Title | Date | Key Contribution | Links |
 |:------|:----:|:-----------------|:-----:|
-| OpenClaw PRISM: Zero-Fork Runtime Security Layer | Mar 2026 | 0.955 attack block rate, F1=0.923; 10 lifecycle hooks with TTL decay | [Paper](https://arxiv.org/abs/2603.11853) |
-| Agent Privilege Separation Against Prompt Injection | Mar 2026 | 0% ASR on 649 attacks (323x improvement over content-filtering alone) | [Paper](https://arxiv.org/abs/2603.13424) |
-| Before the Tool Call: Pre-Action Authorization (OAP) | Mar 2026 | Social engineering reduced from 74.6% to 0% ASR; 53ms latency | [Paper](https://arxiv.org/abs/2603.20953) [Code](https://github.com/aporthq/aport-spec) |
-| VeriGrey: Greybox Agent Validation | Mar 2026 | +33% more vulnerabilities than black-box; 100% discovery on Kimi-K2.5 | [Paper](https://arxiv.org/abs/2603.17639) [Code](https://github.com/soarskylar/verigrey) |
+| OpenClaw PRISM: Zero-Fork Runtime Security Layer | Mar 2026 | Defense-in-depth across 10 lifecycle hooks with risk accumulation and decay | [Paper](https://arxiv.org/abs/2603.11853) |
+| Agent Privilege Separation Against Prompt Injection | Mar 2026 | Two-agent architecture eliminates prompt injection for constrained tasks | [Paper](https://arxiv.org/abs/2603.13424) |
+| Before the Tool Call: Pre-Action Authorization (OAP) | Mar 2026 | Deterministic pre-action authorization blocks all unauthorized actions | [Paper](https://arxiv.org/abs/2603.20953) [Code](https://github.com/aporthq/aport-spec) |
+| VeriGrey: Greybox Agent Validation | Mar 2026 | Grey-box fuzzing with tool-invocation coverage feedback outperforms black-box | [Paper](https://arxiv.org/abs/2603.17639) [Code](https://github.com/soarskylar/verigrey) |
 
 <p align="right"><a href="#contents">Back to Top</a></p>
 
@@ -165,13 +165,13 @@ timeline
 
 | Title | Date | Key Contribution | Links |
 |:------|:----:|:-----------------|:-----:|
-| ROSClaw: OpenClaw ROS 2 Framework for Robot Control | Mar 2026 | Model-agnostic ROS 2 layer reveals 4.8x cross-model safety divergence | [Paper](https://arxiv.org/abs/2603.26997) |
-| RoboClaw: Scalable Long-Horizon Robotic Tasks | Mar 2026 | VLM + self-resetting loops; +25% long-horizon success, 53.7% less human effort | [Paper](https://arxiv.org/abs/2603.11558) [Code](https://github.com/RoboClaw-Robotics/RoboClaw) |
-| When OpenClaw Meets Hospital | Mar 2026 | Manifest-guided memory achieves 2.2x precision over RAG; +21% longitudinal recall | [Paper](https://arxiv.org/abs/2603.11721) |
-| Survivability-Aware Agentic Crypto Trading | Mar 2026 | SAE middleware reduces max drawdown 93.1% on Binance replay data | [Paper](https://arxiv.org/abs/2603.10092) |
-| IronEngine: Towards General AI Assistant | Mar 2026 | Platform comparison identifying four shared weaknesses across all variants | [Paper](https://arxiv.org/abs/2603.08425) |
-| Human-AI Partnership in Education ⭐ **AIED 2026** | Mar 2026 | 167K agents reveal emergent peer learning and trust dynamics for education | [Paper](https://arxiv.org/abs/2603.16663) |
-| From Agent-Only Networks to Autonomous Science (ClawdLab) | Feb 2026 | Three-tier taxonomy of AI scientific platforms; ClawdLab with PI-led governance | [Paper](https://arxiv.org/abs/2602.19810) [Code](https://github.com/bio-xyz/ClawdLab) |
+| ROSClaw: OpenClaw ROS 2 Framework for Robot Control | Mar 2026 | Model-agnostic ROS 2 executive layer for multi-platform robot control | [Paper](https://arxiv.org/abs/2603.26997) |
+| RoboClaw: Scalable Long-Horizon Robotic Tasks | Mar 2026 | VLM-driven controller with self-resetting data collection loops | [Paper](https://arxiv.org/abs/2603.11558) [Code](https://github.com/RoboClaw-Robotics/RoboClaw) |
+| When OpenClaw Meets Hospital | Mar 2026 | Hospital-adapted architecture with HIPAA compliance and manifest-guided memory | [Paper](https://arxiv.org/abs/2603.11721) |
+| Survivability-Aware Agentic Crypto Trading | Mar 2026 | Non-bypassable execution middleware for financial agent safety | [Paper](https://arxiv.org/abs/2603.10092) |
+| IronEngine: Towards General AI Assistant | Mar 2026 | Systematic comparison across five agent platforms; identifies shared weaknesses | [Paper](https://arxiv.org/abs/2603.08425) |
+| Human-AI Partnership in Education ⭐ **AIED 2026** | Mar 2026 | Emergent peer learning and trust dynamics across agent communities | [Paper](https://arxiv.org/abs/2603.16663) |
+| From Agent-Only Networks to Autonomous Science (ClawdLab) | Feb 2026 | Autonomous scientific research platform with PI-led governance | [Paper](https://arxiv.org/abs/2602.19810) [Code](https://github.com/bio-xyz/ClawdLab) |
 
 ### Moltbook Social Dynamics (18)
 
@@ -181,34 +181,34 @@ timeline
 
 | Title | Date | Key Contribution | Links |
 |:------|:----:|:-----------------|:-----:|
-| Collective Behavior of AI Agents: the Case of Moltbook | Feb 2026 | 369K posts; human-like power laws but sublinear upvote scaling | [Paper](https://arxiv.org/abs/2602.09270) |
-| Exploring Silicon-Based Societies | Feb 2026 | Three emergent archetypes across 4,162 sub-communities | [Paper](https://arxiv.org/abs/2602.02613) |
-| 'Humans welcome to observe': A First Look at Moltbook | Feb 2026 | 44K posts; topic-dependent toxicity; activity-harm correlation r=0.769 | [Paper](https://arxiv.org/abs/2602.10127) |
-| The Anatomy of the Moltbook Social Graph | Feb 2026 | Small-world macro structure but shallow non-reciprocal micro-interactions | [Paper](https://arxiv.org/abs/2602.10131) [Code](https://github.com/daveholtz/moltbook_scraper) |
-| The Rise of AI Agent Communities | Feb 2026 | Functional utility drives influence; hub-spoke network with 670x clustering | [Paper](https://arxiv.org/abs/2602.12634) |
-| Emergence of Fragility in LLM-based Social Networks | Mar 2026 | 0.9% core nodes; targeted out-degree attack collapses giant component to 15% | [Paper](https://arxiv.org/abs/2603.23279) |
-| MoltNet: Understanding Social Behavior of AI Agents | Feb 2026 | 73.5% show persona drift after social rewards; selective human mimicry | [Paper](https://arxiv.org/abs/2602.13458) [Code](https://github.com/iNLP-Lab/MoltNet) |
-| Social Simulacra in the Wild: AI vs Human Communities | Mar 2026 | Gini=0.84; 68x cross-community overlap; homogenization is structural | [Paper](https://arxiv.org/abs/2603.16128) |
-| Scientific Discussions on Moltbook (BERTopic) | Mar 2026 | Philosophy/AI ethnography get 3.77x more comments than other science | [Paper](https://arxiv.org/abs/2603.11375) |
+| Collective Behavior of AI Agents: the Case of Moltbook | Feb 2026 | Large-scale statistical analysis showing human-like attention dynamics | [Paper](https://arxiv.org/abs/2602.09270) |
+| Exploring Silicon-Based Societies | Feb 2026 | "Data-driven silicon sociology" framework; emergent community archetypes | [Paper](https://arxiv.org/abs/2602.02613) |
+| 'Humans welcome to observe': A First Look at Moltbook | Feb 2026 | First measurement study with topic taxonomy and toxicity analysis | [Paper](https://arxiv.org/abs/2602.10127) |
+| The Anatomy of the Moltbook Social Graph | Feb 2026 | Small-world structure but shallow, non-reciprocal micro-interactions | [Paper](https://arxiv.org/abs/2602.10131) [Code](https://github.com/daveholtz/moltbook_scraper) |
+| The Rise of AI Agent Communities | Feb 2026 | Discourse analysis showing functional utility drives agent influence | [Paper](https://arxiv.org/abs/2602.12634) |
+| Emergence of Fragility in LLM-based Social Networks | Mar 2026 | Core-periphery structure reveals vulnerability to targeted hub attacks | [Paper](https://arxiv.org/abs/2603.23279) |
+| MoltNet: Understanding Social Behavior of AI Agents | Feb 2026 | Agents selectively mimic human behavior; persona drift after social rewards | [Paper](https://arxiv.org/abs/2602.13458) [Code](https://github.com/iNLP-Lab/MoltNet) |
+| Social Simulacra in the Wild: AI vs Human Communities | Mar 2026 | First AI-vs-human community comparison; structural homogenization found | [Paper](https://arxiv.org/abs/2603.16128) |
+| Scientific Discussions on Moltbook (BERTopic) | Mar 2026 | Topic modeling of AI science discourse; self-referential discussion patterns | [Paper](https://arxiv.org/abs/2603.11375) |
 
 #### ⚠️ Safety, Norms & Emergent Behavior
 
 | Title | Date | Key Contribution | Links |
 |:------|:----:|:-----------------|:-----:|
-| The Moltbook Illusion: Human vs Emergent Behavior | Feb 2026 | Only 15.3% truly autonomous; all viral phenomena are human-seeded | [Paper](https://arxiv.org/abs/2602.07432) [Code](https://github.com/ln9527/moltbook-research) |
-| The Devil Behind Moltbook: Safety Vanishing | Feb 2026 | Proves self-evolution trilemma: closed-loop societies can't maintain safety | [Paper](https://arxiv.org/abs/2602.09877) |
-| Agents in the Wild: Safety and Sociality on Moltbook | Feb 2026 | Societies in 3-5 days but hollow: 4.1% reciprocity, 88.8% shallow | [Paper](https://arxiv.org/abs/2602.13284) |
-| Risky Instruction Sharing and Norm Enforcement (AIRS) | Feb 2026 | 18.4% action-inducing posts; emergent decentralized norm enforcement | [Paper](https://arxiv.org/abs/2602.02625) [Code](https://github.com/kelkalot/moltbook-observatory) |
-| Large-Scale Analysis of Political Propaganda on Moltbook | Mar 2026 | 1% of posts = 42% of political content; comments remain 69% neutral | [Paper](https://arxiv.org/abs/2603.18349) |
+| The Moltbook Illusion: Human vs Emergent Behavior | Feb 2026 | Temporal fingerprinting separates autonomous from human-influenced agents | [Paper](https://arxiv.org/abs/2602.07432) [Code](https://github.com/ln9527/moltbook-research) |
+| The Devil Behind Moltbook: Safety Vanishing | Feb 2026 | Proves self-evolution trilemma impossibility result for agent societies | [Paper](https://arxiv.org/abs/2602.09877) |
+| Agents in the Wild: Safety and Sociality on Moltbook | Feb 2026 | Governance and religion emerge spontaneously but interaction is performative | [Paper](https://arxiv.org/abs/2602.13284) |
+| Risky Instruction Sharing and Norm Enforcement (AIRS) | Feb 2026 | Action-inducing posts trigger emergent decentralized norm enforcement | [Paper](https://arxiv.org/abs/2602.02625) [Code](https://github.com/kelkalot/moltbook-observatory) |
+| Large-Scale Analysis of Political Propaganda on Moltbook | Mar 2026 | Political propaganda disproportionately concentrated in small post fraction | [Paper](https://arxiv.org/abs/2603.18349) |
 
 #### 🔗 Learning & Coordination
 
 | Title | Date | Key Contribution | Links |
 |:------|:----:|:-----------------|:-----:|
-| Peer Learning Patterns in the Moltbook Community | Feb 2026 | 11.4:1 statement-to-question ratio; Gini=0.91 participation inequality | [Paper](https://arxiv.org/abs/2602.14477) |
-| Informal Learners at Moltbook: Emergent Learning at Scale | Feb 2026 | 93% top-level comments; 8.9:1 broadcasting inversion; 95% engagement decay | [Paper](https://arxiv.org/abs/2602.18832) |
-| MoltGraph: Temporal Graph for Coordinated-Agent Detection | Feb 2026 | Coordinated posts get 506% early engagement lift; first temporal graph dataset | [Paper](https://arxiv.org/abs/2603.00646) [Code](https://github.com/kunmukh/moltgraph) |
-| Molt Dynamics: Emergent Social Phenomena | Mar 2026 | Role specialization (silhouette=0.91) but cooperation fails (6.7%, d=-0.88) | [Paper](https://arxiv.org/abs/2603.03555) |
+| Peer Learning Patterns in the Moltbook Community | Feb 2026 | Taxonomy of peer response patterns: validation, extension, application | [Paper](https://arxiv.org/abs/2602.14477) |
+| Informal Learners at Moltbook: Emergent Learning at Scale | Feb 2026 | Extreme broadcasting inversion; parallel monologues dominate interaction | [Paper](https://arxiv.org/abs/2602.18832) |
+| MoltGraph: Temporal Graph for Coordinated-Agent Detection | Feb 2026 | First temporal graph dataset; coordinated posts get massive early engagement | [Paper](https://arxiv.org/abs/2603.00646) [Code](https://github.com/kunmukh/moltgraph) |
+| Molt Dynamics: Emergent Social Phenomena | Mar 2026 | Role specialization emerges but multi-agent cooperation largely fails | [Paper](https://arxiv.org/abs/2603.03555) |
 
 ### 🔭 Ecosystem Perspectives (4)
 
