@@ -405,7 +405,7 @@ We especially welcome:
   title={Awesome OpenClaw Research: A Curated Collection of the OpenClaw AI Agent Ecosystem},
   author={Wang, Ziqing},
   year={2026},
-  url={https://github.com/REAL-Lab-NU/Awesome-OpenClaw-Research}
+  url={https://github.com/REAL-Lab-NU/Awesome-OpenClaw-Papers}
 }
 ```
 
@@ -413,11 +413,11 @@ We especially welcome:
 
 ## :star2: Star History
 
-<a href="https://star-history.com/#REAL-Lab-NU/Awesome-OpenClaw-Research&Date">
+<a href="https://star-history.com/#REAL-Lab-NU/Awesome-OpenClaw-Papers&Date">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=REAL-Lab-NU/Awesome-OpenClaw-Research&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=REAL-Lab-NU/Awesome-OpenClaw-Research&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=REAL-Lab-NU/Awesome-OpenClaw-Research&type=Date" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=REAL-Lab-NU/Awesome-OpenClaw-Papers&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=REAL-Lab-NU/Awesome-OpenClaw-Papers&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=REAL-Lab-NU/Awesome-OpenClaw-Papers&type=Date" />
  </picture>
 </a>
 
