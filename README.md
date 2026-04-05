@@ -26,11 +26,11 @@ OpenClaw — the open-source, self-hosted AI agent platform created by Peter Ste
 
 | Layer | Category | Papers | Key Topics |
 |:-----:|:---------|:------:|:-----------|
-| L1 | Core Platform & Architecture | 6 | RL training, robotics, P2P, edge deployment |
+| L1 | Core Platform & Architecture | 4 | RL training, P2P, edge deployment, autonomous science |
 | L2 | Skill Ecosystem & Supply Chain | 6 | Formal analysis, clone detection, auditing |
 | L3 | Security & Trust | 16 | Threat taxonomies, attacks, defenses |
 | L4 | Agent Social Dynamics (Moltbook) | 18 | Network structure, safety decay, coordination |
-| L5 | Applications & Domains | 4 | Healthcare, finance, education, robotics |
+| L5 | Applications & Domains | 6 | Robotics, healthcare, finance, education |
 | L6 | Ecosystem Perspectives | 4 | Surveys, position papers, strategy |
 | | **Total** | **54** | |
 
@@ -106,14 +106,6 @@ Papers that extend or modify the OpenClaw framework itself — new training para
 - **OpenClaw-RL: Train Any Agent Simply by Talking** - Yinjie Wang, Xuyang Chen, Xiaolong Jin, Mengdi Wang, Ling Yang. arXiv, Mar 2026.
   [[Paper](https://arxiv.org/abs/2603.10165)] [[Code](https://github.com/Gen-Verse/OpenClaw-RL) ![Stars](https://img.shields.io/github/stars/Gen-Verse/OpenClaw-RL?style=social)]
   > Fully asynchronous RL framework recovering next-state signals from live interaction; introduces Hindsight-Guided On-Policy Distillation (OPD).
-
-- **ROSClaw: An OpenClaw ROS 2 Framework for Agentic Robot Control and Interaction** - Irvin Steve Cardenas, Marcus Anthony Arnett, Natalie Catherine Yeo, Lucky Shah, Jong-Hoon Kim. arXiv, Mar 2026.
-  [[Paper](https://arxiv.org/abs/2603.26997)]
-  > Model-agnostic executive layer integrating OpenClaw with ROS 2; deployed on three robot platforms with up to 4.8x differences in out-of-policy action rates.
-
-- **RoboClaw: An Agentic Framework for Scalable Long-Horizon Robotic Tasks** - Ruiying Li et al. (18 authors; AgiBot, Shanghai Jiao Tong University, NUS). arXiv, Mar 2026.
-  [[Paper](https://arxiv.org/abs/2603.11558)] [[Code](https://github.com/MINT-SJTU/RoboClaw) ![Stars](https://img.shields.io/github/stars/MINT-SJTU/RoboClaw?style=social)]
-  > VLM-driven controller built on OpenClaw with Entangled Action Pairs (EAP) for self-resetting data collection; 25% success rate improvement on long-horizon tasks, 53.7% reduction in human time investment.
 
 - **From Agent-Only Social Networks to Autonomous Scientific Research: Lessons from OpenClaw and Moltbook** - Lukas Weidener, Marko Brkic, Phillip Lee, Martin Karlsson, Kevin Noessler, Paul Kohlhaas. arXiv, Feb 2026.
   [[Paper](https://arxiv.org/abs/2602.19810)]
@@ -321,7 +313,15 @@ The most-studied aspect of the ecosystem (18 papers), analyzing the Reddit-like 
 
 ### 5. :hospital: Applications & Domains
 
-Papers that use OpenClaw to solve specific domain problems — healthcare, finance, education, general assistance.
+Papers that use OpenClaw to solve specific domain problems — healthcare, finance, robotics, education, general assistance.
+
+- **ROSClaw: An OpenClaw ROS 2 Framework for Agentic Robot Control and Interaction** - Irvin Steve Cardenas, Marcus Anthony Arnett, Natalie Catherine Yeo, Lucky Shah, Jong-Hoon Kim. arXiv, Mar 2026.
+  [[Paper](https://arxiv.org/abs/2603.26997)]
+  > Model-agnostic executive layer integrating OpenClaw with ROS 2; deployed on three robot platforms with up to 4.8x differences in out-of-policy action rates.
+
+- **RoboClaw: An Agentic Framework for Scalable Long-Horizon Robotic Tasks** - Ruiying Li et al. (18 authors; AgiBot, Shanghai Jiao Tong University, NUS). arXiv, Mar 2026.
+  [[Paper](https://arxiv.org/abs/2603.11558)] [[Code](https://github.com/MINT-SJTU/RoboClaw) ![Stars](https://img.shields.io/github/stars/MINT-SJTU/RoboClaw?style=social)]
+  > VLM-driven controller built on OpenClaw with Entangled Action Pairs (EAP) for self-resetting data collection; 25% success rate improvement on long-horizon tasks, 53.7% reduction in human time investment.
 
 - **When OpenClaw Meets Hospital: Toward an Agentic Operating System for Dynamic Clinical Workflows** - Wenxian Yang et al. arXiv, Mar 2026.
   [[Paper](https://arxiv.org/abs/2603.11721)]
