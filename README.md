@@ -74,32 +74,32 @@ timeline
 
 ## Contents
 
-### Research Papers
-- [1. Core Platform & Architecture](#1--core-platform--architecture)
-- [2. Skill Ecosystem & Supply Chain](#2--skill-ecosystem--supply-chain)
-- [3. Security & Trust](#3--security--trust)
-  - [3.1 Threat Analysis & Taxonomies](#31-threat-analysis--taxonomies)
-  - [3.2 Adversarial Attacks](#32-adversarial-attacks)
-  - [3.3 Defensive Architectures](#33-defensive-architectures)
-- [4. Agent Social Dynamics (Moltbook)](#4--agent-social-dynamics-moltbook)
-  - [4.1 Platform Measurement & Network Structure](#41-platform-measurement--network-structure)
-  - [4.2 Safety, Norms & Emergent Behavior](#42-safety-norms--emergent-behavior)
-  - [4.3 Learning & Coordination](#43-learning--coordination)
-- [5. Applications & Domains](#5--applications--domains)
-- [6. Ecosystem Perspectives](#6--ecosystem-perspectives)
+### :page_facing_up: Research Papers
+- [:gear: Core Platform & Architecture](#1-gear-core-platform--architecture)
+- [:package: Skill Ecosystem & Supply Chain](#2-package-skill-ecosystem--supply-chain)
+- [:shield: Security & Trust](#3-shield-security--trust)
+  - [Threat Analysis & Taxonomies](#31-threat-analysis--taxonomies)
+  - [Adversarial Attacks](#32-adversarial-attacks)
+  - [Defensive Architectures](#33-defensive-architectures)
+- [:busts_in_silhouette: Agent Social Dynamics (Moltbook)](#4-busts_in_silhouette-agent-social-dynamics-moltbook)
+  - [Platform Measurement & Network Structure](#41-platform-measurement--network-structure)
+  - [Safety, Norms & Emergent Behavior](#42-safety-norms--emergent-behavior)
+  - [Learning & Coordination](#43-learning--coordination)
+- [:hospital: Applications & Domains](#5-hospital-applications--domains)
+- [:telescope: Ecosystem Perspectives](#6-telescope-ecosystem-perspectives)
 
-### Resources
-- [Industry Security Reports](#-industry-security-reports)
-- [Open-Source Projects & Tools](#-open-source-projects--tools)
-- [Datasets & Benchmarks](#-datasets--benchmarks)
-- [Related Awesome Lists](#-related-awesome-lists)
-- [Contributing](#-contributing)
+### :file_folder: Resources
+- [:shield: Industry Security Reports](#shield-industry-security-reports)
+- [:wrench: Open-Source Projects & Tools](#wrench-open-source-projects--tools)
+- [:bar_chart: Datasets & Benchmarks](#bar_chart-datasets--benchmarks)
+- [:link: Related Awesome Lists](#link-related-awesome-lists)
+- [:handshake: Contributing](#handshake-contributing)
 
 ---
 
 ## Research Papers
 
-### 1. <img src="https://img.shields.io/badge/-L1-blue?style=flat-square" alt="L1"/> Core Platform & Architecture
+### 1. :gear: Core Platform & Architecture
 
 Papers that extend or modify the OpenClaw framework itself — new training paradigms, integration layers, deployment models.
 
@@ -129,7 +129,7 @@ Papers that extend or modify the OpenClaw framework itself — new training para
 
 <p align="right"><a href="#contents">Back to Top</a></p>
 
-### 2. <img src="https://img.shields.io/badge/-L2-green?style=flat-square" alt="L2"/> Skill Ecosystem & Supply Chain
+### 2. :package: Skill Ecosystem & Supply Chain
 
 Papers investigating the ClawHub marketplace, skill security, and broader ecosystem challenges.
 
@@ -159,7 +159,7 @@ Papers investigating the ClawHub marketplace, skill security, and broader ecosys
 
 <p align="right"><a href="#contents">Back to Top</a></p>
 
-### 3. <img src="https://img.shields.io/badge/-L3-red?style=flat-square" alt="L3"/> Security & Trust
+### 3. :shield: Security & Trust
 
 The largest research cluster (16 papers), examining OpenClaw's attack surface from threat analysis through novel attacks to defensive systems.
 
@@ -235,7 +235,7 @@ The largest research cluster (16 papers), examining OpenClaw's attack surface fr
 
 <p align="right"><a href="#contents">Back to Top</a></p>
 
-### 4. <img src="https://img.shields.io/badge/-L4-orange?style=flat-square" alt="L4"/> Agent Social Dynamics (Moltbook)
+### 4. :busts_in_silhouette: Agent Social Dynamics (Moltbook)
 
 The most-studied aspect of the ecosystem (18 papers), analyzing the Reddit-like platform exclusively populated by AI agents.
 
@@ -319,7 +319,7 @@ The most-studied aspect of the ecosystem (18 papers), analyzing the Reddit-like 
 
 <p align="right"><a href="#contents">Back to Top</a></p>
 
-### 5. <img src="https://img.shields.io/badge/-L5-yellow?style=flat-square" alt="L5"/> Applications & Domains
+### 5. :hospital: Applications & Domains
 
 Papers that use OpenClaw to solve specific domain problems — healthcare, finance, education, general assistance.
 
@@ -341,7 +341,7 @@ Papers that use OpenClaw to solve specific domain problems — healthcare, finan
 
 <p align="right"><a href="#contents">Back to Top</a></p>
 
-### 6. <img src="https://img.shields.io/badge/-L6-lightgrey?style=flat-square" alt="L6"/> Ecosystem Perspectives
+### 6. :telescope: Ecosystem Perspectives
 
 Surveys, conceptual analyses, and strategic assessments of the OpenClaw ecosystem.
 
