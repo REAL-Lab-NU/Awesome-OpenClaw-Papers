@@ -116,14 +116,25 @@ timeline
 
 ### 📦 Skill Ecosystem & Supply Chain (6)
 
-| Title&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Date | Key Contribution&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Links |
-|:------|:----:|:-----------------|:-----:|
-| SkillFortify: Formal Analysis and Supply Chain Security | Feb 2026 | First formal supply-chain framework with Dolev-Yao attacker model for skills | [Paper](https://arxiv.org/abs/2603.00195) [Code](https://github.com/varun369/skillfortify) |
-| SkillProbe: Security Auditing via Multi-Agent Collaboration | Mar 2026 | Multi-agent auditing reveals most popular skills fail rigorous security checks | [Paper](https://arxiv.org/abs/2603.21019) |
-| SkillClone: Multi-Modal Clone Detection ⭐ **ASE 2026** | Mar 2026 | First multi-modal clone detector; massive ecosystem inflation from cloning | [Paper](https://arxiv.org/abs/2603.22447) |
-| Malicious Or Not: Repository Context for Skill Classification | Mar 2026 | Largest skill ecosystem study; repo-context dramatically reduces false positives | [Paper](https://arxiv.org/abs/2603.16572) |
-| SkillNet: Create, Evaluate, and Connect AI Skills | Feb 2026 | Unified skill ontology with multi-dimensional quality evaluation framework | [Paper](https://arxiv.org/abs/2603.04448) [Code](https://github.com/zjunlp/SkillNet) |
-| SkillReducer: Optimizing LLM Agent Skills for Token Efficiency | Mar 2026 | Skill debloating framework compresses descriptions while preserving functionality | [Paper](https://arxiv.org/abs/2603.29919) |
+<table>
+<colgroup>
+<col style="width: 40%">
+<col style="width: 10%">
+<col style="width: 38%">
+<col style="width: 12%">
+</colgroup>
+<thead>
+<tr><th align="left">Title</th><th align="center">Date</th><th align="left">Key Contribution</th><th align="center">Links</th></tr>
+</thead>
+<tbody>
+<tr><td>SkillFortify: Formal Analysis and Supply Chain Security</td><td align="center">Feb 2026</td><td>First formal supply-chain framework with Dolev-Yao attacker model for skills</td><td align="center"><a href="https://arxiv.org/abs/2603.00195">Paper</a> <a href="https://github.com/varun369/skillfortify">Code</a></td></tr>
+<tr><td>SkillProbe: Security Auditing via Multi-Agent Collaboration</td><td align="center">Mar 2026</td><td>Multi-agent auditing reveals most popular skills fail rigorous security checks</td><td align="center"><a href="https://arxiv.org/abs/2603.21019">Paper</a></td></tr>
+<tr><td>SkillClone: Multi-Modal Clone Detection ⭐ <b>ASE 2026</b></td><td align="center">Mar 2026</td><td>First multi-modal clone detector; massive ecosystem inflation from cloning</td><td align="center"><a href="https://arxiv.org/abs/2603.22447">Paper</a></td></tr>
+<tr><td>Malicious Or Not: Repository Context for Skill Classification</td><td align="center">Mar 2026</td><td>Largest skill ecosystem study; repo-context dramatically reduces false positives</td><td align="center"><a href="https://arxiv.org/abs/2603.16572">Paper</a></td></tr>
+<tr><td>SkillNet: Create, Evaluate, and Connect AI Skills</td><td align="center">Feb 2026</td><td>Unified skill ontology with multi-dimensional quality evaluation framework</td><td align="center"><a href="https://arxiv.org/abs/2603.04448">Paper</a> <a href="https://github.com/zjunlp/SkillNet">Code</a></td></tr>
+<tr><td>SkillReducer: Optimizing LLM Agent Skills for Token Efficiency</td><td align="center">Mar 2026</td><td>Skill debloating framework compresses descriptions while preserving functionality</td><td align="center"><a href="https://arxiv.org/abs/2603.29919">Paper</a></td></tr>
+</tbody>
+</table>
 
 <p align="right"><a href="#contents">Back to Top</a></p>
 
