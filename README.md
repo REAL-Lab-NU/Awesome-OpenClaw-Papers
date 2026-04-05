@@ -72,62 +72,99 @@ timeline
 
 ### Quick Reference Table
 
-| # | Title | Category | Date | Links |
-|:-:|:------|:--------:|:----:|:-----:|
-| 1 | OpenClaw-RL | L1 | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.10165)] [[Code](https://github.com/Gen-Verse/OpenClaw-RL)] |
-| 2 | OpenCLAW-P2P | L1 | 2026 | [[Paper](https://www.researchgate.net/publication/401449080)] |
-| 3 | Edge Agent Deployments on IoT | L1 | Feb 2026 | [[Paper](https://arxiv.org/abs/2602.22525)] |
-| 4 | SkillFortify | L2 | Feb 2026 | [[Paper](https://arxiv.org/abs/2603.00195)] |
-| 5 | SkillProbe | L2 | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.21019)] |
-| 6 | SkillClone (ASE 2026) | L2 | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.22447)] |
-| 7 | Malicious Or Not | L2 | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.16572)] |
-| 8 | SkillNet | L2 | Feb 2026 | [[Paper](https://arxiv.org/abs/2603.04448)] |
-| 9 | SkillReducer | L2 | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.29919)] |
-| 10 | Uncovering Security Threats (FASA) | L3 | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.12644)] |
-| 11 | Don't Let the Claw Grip Your Hand | L3 | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.10387)] |
-| 12 | Taming OpenClaw | L3 | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.11619)] |
-| 13 | Systematic Taxonomy of Vulnerabilities | L3 | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.27517)] |
-| 14 | Defensible Design for OpenClaw | L3 | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.13151)] |
-| 15 | Trajectory-Based Safety Audit | L3 | Feb 2026 | [[Paper](https://arxiv.org/abs/2602.14364)] |
-| 16 | From Assistant to Double Agent (PASB) | L3 | Feb 2026 | [[Paper](https://arxiv.org/abs/2602.08412)] |
-| 17 | ClawTrap | L3 | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.18762)] |
-| 18 | Clawdrain | L3 | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.00902)] |
-| 19 | ClawWorm | L3 | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.15727)] |
-| 20 | SLINGSHOT | L3 | Feb 2026 | [[Paper](https://arxiv.org/abs/2602.02395)] |
-| 21 | HEARTBEAT | L3 | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.23064)] |
-| 22 | PRISM | L3 | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.11853)] |
-| 23 | Agent Privilege Separation | L3 | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.13424)] |
-| 24 | Open Agent Passport (OAP) | L3 | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.20953)] |
-| 25 | VeriGrey | L3 | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.17639)] |
-| 26 | Collective Behavior of AI Agents | L4 | Feb 2026 | [[Paper](https://arxiv.org/abs/2602.09270)] |
-| 27 | Exploring Silicon-Based Societies | L4 | Feb 2026 | [[Paper](https://arxiv.org/abs/2602.02613)] |
-| 28 | Humans Welcome to Observe | L4 | Feb 2026 | [[Paper](https://arxiv.org/abs/2602.10127)] |
-| 29 | Anatomy of the Moltbook Social Graph | L4 | Feb 2026 | [[Paper](https://arxiv.org/abs/2602.10131)] |
-| 30 | Rise of AI Agent Communities | L4 | Feb 2026 | [[Paper](https://arxiv.org/abs/2602.12634)] |
-| 31 | Emergence of Fragility | L4 | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.23279)] |
-| 32 | MoltNet | L4 | Feb 2026 | [[Paper](https://arxiv.org/abs/2602.13458)] |
-| 33 | Social Simulacra in the Wild | L4 | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.16128)] |
-| 34 | Scientific Discussions on Moltbook | L4 | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.11375)] |
-| 35 | The Moltbook Illusion | L4 | Feb 2026 | [[Paper](https://arxiv.org/abs/2602.07432)] |
-| 36 | The Devil Behind Moltbook | L4 | Feb 2026 | [[Paper](https://arxiv.org/abs/2602.09877)] |
-| 37 | Agents in the Wild | L4 | Feb 2026 | [[Paper](https://arxiv.org/abs/2602.13284)] |
-| 38 | Risky Instruction Sharing (AIRS) | L4 | Feb 2026 | [[Paper](https://arxiv.org/abs/2602.02625)] |
-| 39 | Political Propaganda on Moltbook | L4 | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.18349)] |
-| 40 | Peer Learning Patterns | L4 | Feb 2026 | [[Paper](https://arxiv.org/abs/2602.14477)] |
-| 41 | Informal Learners at Moltbook | L4 | Feb 2026 | [[Paper](https://arxiv.org/abs/2602.18832)] |
-| 42 | MoltGraph | L4 | Feb 2026 | [[Paper](https://arxiv.org/abs/2603.00646)] |
-| 43 | Molt Dynamics | L4 | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.03555)] |
-| 44 | ROSClaw | L5 | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.26997)] |
-| 45 | RoboClaw | L5 | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.11558)] [[Code](https://github.com/MINT-SJTU/RoboClaw)] |
-| 46 | OpenClaw Meets Hospital | L5 | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.11721)] |
-| 47 | Survivability-Aware Crypto Trading | L5 | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.10092)] |
-| 48 | IronEngine | L5 | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.08425)] |
-| 49 | Human-AI Partnership in Education | L5 | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.16663)] |
-| 50 | ClawdLab | L5 | Feb 2026 | [[Paper](https://arxiv.org/abs/2602.19810)] |
-| 51 | OpenClaw as Language Infrastructure | L6 | Mar 2026 | [[Paper](https://doi.org/10.20944/preprints202603.1060.v1)] |
-| 52 | Survey on Unique Security of LLM Agents | L6 | Mar 2026 | [[Paper](https://www.preprints.org)] |
-| 53 | Clippy to OpenClaw | L6 | 2026 | [[Paper](https://www.researchgate.net/publication/402018930)] |
-| 54 | Innovator's Dilemma in Autonomous Agents | L6 | 2026 | [[Paper](https://www.researchgate.net/publication/400542271)] |
+#### :gear: Core Platform & Architecture (3)
+
+| # | Title | Date | Links |
+|:-:|:------|:----:|:-----:|
+| 1 | OpenClaw-RL: Train Any Agent Simply by Talking | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.10165)] [[Code](https://github.com/Gen-Verse/OpenClaw-RL)] |
+| 2 | OpenCLAW-P2P: A Decentralized Framework for Collective AI Intelligence Towards AGI | Mar 2026 | [[Paper](https://www.researchgate.net/publication/401449080)] |
+| 3 | Systems-Level Attack Surface of Edge Agent Deployments on IoT | Feb 2026 | [[Paper](https://arxiv.org/abs/2602.22525)] |
+
+#### :package: Skill Ecosystem & Supply Chain (6)
+
+| # | Title | Date | Links |
+|:-:|:------|:----:|:-----:|
+| 4 | Formal Analysis and Supply Chain Security for Agentic AI Skills (SkillFortify) | Feb 2026 | [[Paper](https://arxiv.org/abs/2603.00195)] |
+| 5 | SkillProbe: Security Auditing for Emerging Agent Skill Marketplaces | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.21019)] |
+| 6 | SkillClone: Multi-Modal Clone Detection in the Agent Skill Ecosystem | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.22447)] |
+| 7 | Malicious Or Not: Adding Repository Context to Agent Skill Classification | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.16572)] |
+| 8 | SkillNet: Create, Evaluate, and Connect AI Skills | Feb 2026 | [[Paper](https://arxiv.org/abs/2603.04448)] |
+| 9 | SkillReducer: Optimizing LLM Agent Skills for Token Efficiency | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.29919)] |
+
+#### :shield: Security & Trust — Threat Analysis (8)
+
+| # | Title | Date | Links |
+|:-:|:------|:----:|:-----:|
+| 10 | Uncovering Security Threats and Architecting Defenses in Autonomous Agents | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.12644)] |
+| 11 | Don't Let the Claw Grip Your Hand: A Security Analysis and Defense Framework | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.10387)] |
+| 12 | Taming OpenClaw: Security Analysis and Mitigation of Autonomous LLM Agent Threats | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.11619)] |
+| 13 | A Systematic Taxonomy of Security Vulnerabilities in the OpenClaw AI Agent Framework | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.27517)] |
+| 14 | Defensible Design for OpenClaw: Securing Autonomous Tool-Invoking Agents | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.13151)] |
+| 15 | A Trajectory-Based Safety Audit of Clawdbot (OpenClaw) | Feb 2026 | [[Paper](https://arxiv.org/abs/2602.14364)] |
+| 16 | From Assistant to Double Agent: Formalizing and Benchmarking Attacks on OpenClaw | Feb 2026 | [[Paper](https://arxiv.org/abs/2602.08412)] |
+| 17 | ClawTrap: A MITM-Based Red-Teaming Framework for Real-World OpenClaw Security | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.18762)] |
+
+#### :shield: Security & Trust — Adversarial Attacks (4)
+
+| # | Title | Date | Links |
+|:-:|:------|:----:|:-----:|
+| 18 | Clawdrain: Exploiting Tool-Calling Chains for Stealthy Token Exhaustion | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.00902)] |
+| 19 | ClawWorm: Self-Propagating Attacks Across LLM Agent Ecosystems | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.15727)] |
+| 20 | David vs. Goliath: Verifiable Agent-to-Agent Jailbreaking via RL (SLINGSHOT) | Feb 2026 | [[Paper](https://arxiv.org/abs/2602.02395)] |
+| 21 | Mind Your HEARTBEAT! Claw Background Execution Enables Silent Memory Pollution | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.23064)] |
+
+#### :shield: Security & Trust — Defensive Architectures (4)
+
+| # | Title | Date | Links |
+|:-:|:------|:----:|:-----:|
+| 22 | OpenClaw PRISM: A Zero-Fork, Defense-in-Depth Runtime Security Layer | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.11853)] |
+| 23 | Agent Privilege Separation in OpenClaw: A Structural Defense Against Prompt Injection | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.13424)] |
+| 24 | Before the Tool Call: Deterministic Pre-Action Authorization (OAP) | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.20953)] |
+| 25 | VeriGrey: Greybox Agent Validation | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.17639)] |
+
+#### :busts_in_silhouette: Agent Social Dynamics — Moltbook (18)
+
+| # | Title | Date | Links |
+|:-:|:------|:----:|:-----:|
+| 26 | Collective Behavior of AI Agents: the Case of Moltbook | Feb 2026 | [[Paper](https://arxiv.org/abs/2602.09270)] |
+| 27 | Exploring Silicon-Based Societies: An Early Study of the Moltbook Agent Community | Feb 2026 | [[Paper](https://arxiv.org/abs/2602.02613)] |
+| 28 | 'Humans welcome to observe': A First Look at the Agent Social Network Moltbook | Feb 2026 | [[Paper](https://arxiv.org/abs/2602.10127)] |
+| 29 | The Anatomy of the Moltbook Social Graph | Feb 2026 | [[Paper](https://arxiv.org/abs/2602.10131)] |
+| 30 | The Rise of AI Agent Communities: Large-Scale Analysis of Discourse on Moltbook | Feb 2026 | [[Paper](https://arxiv.org/abs/2602.12634)] |
+| 31 | Emergence of Fragility in LLM-based Social Networks: the Case of Moltbook | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.23279)] |
+| 32 | MoltNet: Understanding Social Behavior of AI Agents in Agent-Native MoltBook | Feb 2026 | [[Paper](https://arxiv.org/abs/2602.13458)] |
+| 33 | Social Simulacra in the Wild: AI Agent Communities on Moltbook | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.16128)] |
+| 34 | How do AI agents talk about science? Scientific Discussions on Moltbook | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.11375)] |
+| 35 | The Moltbook Illusion: Separating Human Influence from Emergent Behavior | Feb 2026 | [[Paper](https://arxiv.org/abs/2602.07432)] |
+| 36 | The Devil Behind Moltbook: Safety is Always Vanishing in Self-Evolving AI Societies | Feb 2026 | [[Paper](https://arxiv.org/abs/2602.09877)] |
+| 37 | Agents in the Wild: Safety, Society, and the Illusion of Sociality on Moltbook | Feb 2026 | [[Paper](https://arxiv.org/abs/2602.13284)] |
+| 38 | OpenClaw Agents on Moltbook: Risky Instruction Sharing and Norm Enforcement | Feb 2026 | [[Paper](https://arxiv.org/abs/2602.02625)] |
+| 39 | Large-Scale Analysis of Political Propaganda on Moltbook | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.18349)] |
+| 40 | When OpenClaw AI Agents Teach Each Other: Peer Learning Patterns | Feb 2026 | [[Paper](https://arxiv.org/abs/2602.14477)] |
+| 41 | OpenClaw AI Agents as Informal Learners at Moltbook | Feb 2026 | [[Paper](https://arxiv.org/abs/2602.18832)] |
+| 42 | MoltGraph: A Longitudinal Temporal Graph Dataset for Coordinated-Agent Detection | Feb 2026 | [[Paper](https://arxiv.org/abs/2603.00646)] |
+| 43 | Molt Dynamics: Emergent Social Phenomena in Autonomous AI Agent Populations | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.03555)] |
+
+#### :hospital: Applications & Domains (7)
+
+| # | Title | Date | Links |
+|:-:|:------|:----:|:-----:|
+| 44 | ROSClaw: An OpenClaw ROS 2 Framework for Agentic Robot Control | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.26997)] |
+| 45 | RoboClaw: An Agentic Framework for Scalable Long-Horizon Robotic Tasks | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.11558)] [[Code](https://github.com/MINT-SJTU/RoboClaw)] |
+| 46 | When OpenClaw Meets Hospital: Toward an Agentic OS for Clinical Workflows | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.11721)] |
+| 47 | Execution Is the New Attack Surface: Survivability-Aware Agentic Crypto Trading | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.10092)] |
+| 48 | IronEngine: Towards General AI Assistant | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.08425)] |
+| 49 | When OpenClaw Agents Learn from Each Other: Insights for Human-AI Partnership in Education | Mar 2026 | [[Paper](https://arxiv.org/abs/2603.16663)] |
+| 50 | From Agent-Only Social Networks to Autonomous Scientific Research (ClawdLab) | Feb 2026 | [[Paper](https://arxiv.org/abs/2602.19810)] |
+
+#### :telescope: Ecosystem Perspectives (4)
+
+| # | Title | Date | Links |
+|:-:|:------|:----:|:-----:|
+| 51 | OpenClaw as Language Infrastructure: A Case-Centered Survey | Mar 2026 | [[Paper](https://doi.org/10.20944/preprints202603.1060.v1)] |
+| 52 | A Survey on the Unique Security of LLM Agents | Mar 2026 | [[Paper](https://www.preprints.org)] |
+| 53 | Clippy to MS Office : OpenClaw to the Entire System — A Systematic Conceptual Review | Mar 2026 | [[Paper](https://www.researchgate.net/publication/402018930)] |
+| 54 | The Innovator's Dilemma in the Age of Autonomous Agents | Feb 2026 | [[Paper](https://www.researchgate.net/publication/400542271)] |
 
 ---
 
@@ -166,7 +203,7 @@ Papers that extend or modify the OpenClaw framework itself — new training para
   [[Paper](https://arxiv.org/abs/2603.10165)] [[Code](https://github.com/Gen-Verse/OpenClaw-RL) ![Stars](https://img.shields.io/github/stars/Gen-Verse/OpenClaw-RL?style=social)]
   > Fully asynchronous RL framework recovering next-state signals from live interaction; introduces Hindsight-Guided On-Policy Distillation (OPD).
 
-- **OpenCLAW-P2P: A Decentralized Framework for Collective AI Intelligence Towards AGI** - Goodman, Al-Mayahi, Guillermo Perry (Incline Enterprising Inc.). ResearchGate, 2026.
+- **OpenCLAW-P2P: A Decentralized Framework for Collective AI Intelligence Towards AGI** - Goodman, Al-Mayahi, Guillermo Perry (Incline Enterprising Inc.). ResearchGate, Mar 2026.
   [[Paper](https://www.researchgate.net/publication/401449080)]
   > Decentralized P2P framework on Kademlia DHT with federated learning, BFT voting, and Lean 4 formal verification.
 
@@ -412,11 +449,11 @@ Surveys, conceptual analyses, and strategic assessments of the OpenClaw ecosyste
   [[Paper](https://www.preprints.org)]
   > Positions Manus (closed-source) vs. OpenClaw (open-source) as two dominant agent development paradigms.
 
-- **Clippy to MS Office : OpenClaw to the Entire System** - Dr. Arvin Subramanian (De Montfort University, Dubai). ResearchGate, 2026.
+- **Clippy to MS Office : OpenClaw to the Entire System** - Dr. Arvin Subramanian (De Montfort University, Dubai). ResearchGate, Mar 2026.
   [[Paper](https://www.researchgate.net/publication/402018930)]
   > Position paper comparing Clippy (1996-2007) to OpenClaw; introduces Privacy Visual Wrapper (PVW) and Agentic Trust Calibration Model.
 
-- **The Innovator's Dilemma in the Age of Autonomous Agents** - ResearchGate, 2026.
+- **The Innovator's Dilemma in the Age of Autonomous Agents** - ResearchGate, Feb 2026.
   [[Paper](https://www.researchgate.net/publication/400542271)]
   > Christensen's framework applied to Claude Cowork and OpenClaw; "SaaSpocalypse" of Feb 3-4, 2026 (~$285B market cap erased); proposes "pincer disruption" concept.
 
