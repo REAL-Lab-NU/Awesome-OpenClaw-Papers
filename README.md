@@ -97,11 +97,22 @@ timeline
 
 ### ⚙️ Core Architecture (3)
 
-| Title&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Date | Key Contribution&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Links |
-|:------|:----:|:-----------------|:-----:|
-| OpenClaw-RL: Train Any Agent Simply by Talking | Mar 2026 | Async RL from live interaction signals; combines evaluative and directive rewards | [Paper](https://arxiv.org/abs/2603.10165) [Code](https://github.com/Gen-Verse/OpenClaw-RL) |
-| OpenCLAW-P2P: A Decentralized Framework for Collective AI Intelligence | Mar 2026 | Decentralized agent network with DHT, federated learning, and formal verification | [Paper](https://www.researchgate.net/publication/401449080) |
-| Systems-Level Attack Surface of Edge Agent Deployments on IoT | Feb 2026 | Deployment architecture is the primary security determinant for edge agents | [Paper](https://arxiv.org/abs/2602.22525) |
+<table>
+<colgroup>
+<col style="width: 40%">
+<col style="width: 10%">
+<col style="width: 38%">
+<col style="width: 12%">
+</colgroup>
+<thead>
+<tr><th align="left">Title</th><th align="center">Date</th><th align="left">Key Contribution</th><th align="center">Links</th></tr>
+</thead>
+<tbody>
+<tr><td>OpenClaw-RL: Train Any Agent Simply by Talking</td><td align="center">Mar 2026</td><td>Async RL from live interaction signals; combines evaluative and directive rewards</td><td align="center"><a href="https://arxiv.org/abs/2603.10165">Paper</a> <a href="https://github.com/Gen-Verse/OpenClaw-RL">Code</a></td></tr>
+<tr><td>OpenCLAW-P2P: A Decentralized Framework for Collective AI Intelligence</td><td align="center">Mar 2026</td><td>Decentralized agent network with DHT, federated learning, and formal verification</td><td align="center"><a href="https://www.researchgate.net/publication/401449080">Paper</a></td></tr>
+<tr><td>Systems-Level Attack Surface of Edge Agent Deployments on IoT</td><td align="center">Feb 2026</td><td>Deployment architecture is the primary security determinant for edge agents</td><td align="center"><a href="https://arxiv.org/abs/2602.22525">Paper</a></td></tr>
+</tbody>
+</table>
 
 ### 📦 Skill Ecosystem & Supply Chain (6)
 
