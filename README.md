@@ -14,11 +14,11 @@
   <img src="https://img.shields.io/badge/Papers-59+-blue?style=for-the-badge" alt="Papers"/>
   <img src="https://img.shields.io/badge/Industry%20Reports-18+-orange?style=for-the-badge" alt="Reports"/>
   <img src="https://img.shields.io/badge/Datasets-11-green?style=for-the-badge" alt="Datasets"/>
-  <img src="https://img.shields.io/badge/Taxonomy-PTA%203%20Layers-purple?style=for-the-badge" alt="Taxonomy"/>
+  <img src="https://img.shields.io/badge/Taxonomy-PSEA%204%20Layers-purple?style=for-the-badge" alt="Taxonomy"/>
   <img src="https://img.shields.io/badge/Last%20Updated-Apr%202026-red?style=for-the-badge" alt="Updated"/>
 </p>
 
-OpenClaw — the open-source, self-hosted AI agent platform created by Peter Steinberger (evolving from Clawdbot → Moltbot → OpenClaw on January 29, 2026) — has generated **59+ academic papers** and **20+ major industry reports** in under three months. This repository organizes the research landscape using a three-layer **PTA (Platform–Trust & Safety–Application)** taxonomy.
+OpenClaw — the open-source, self-hosted AI agent platform created by Peter Steinberger (evolving from Clawdbot → Moltbot → OpenClaw on January 29, 2026) — has generated **59+ academic papers** and **20+ major industry reports** in under three months. This repository organizes the research landscape using a four-layer **PSEA (Platform–Security–Ecosystem–Application)** taxonomy.
 
 ---
 
@@ -26,9 +26,10 @@ OpenClaw — the open-source, self-hosted AI agent platform created by Peter Ste
 
 | Layer | Category | Papers | Sub-topics |
 |:-----:|:---------|:------:|:-----------|
-| 🔧 **P** | Platform & Ecosystem | 11 | Core architecture, RL training, skill supply chain |
-| 🛡️ **T** | Trust & Safety | 18 | Threat taxonomies, adversarial attacks, defenses |
-| 🌐 **A** | Application & Society | 30 | Robotics, healthcare, Moltbook dynamics, surveys |
+| 🔧 **P** | Platform | 8 | Core architecture, RL training, skill quality |
+| 🛡️ **S** | Security | 21 | Threat taxonomies, attacks, defenses, supply chain |
+| 🌐 **E** | Ecosystem | 22 | Moltbook measurement, safety dynamics, learning |
+| 🚀 **A** | Application | 8 | Robotics, healthcare, education, science |
 | | **Total** | **59** | |
 
 ---
@@ -36,17 +37,20 @@ OpenClaw — the open-source, self-hosted AI agent platform created by Peter Ste
 ## Contents
 
 ### :page_facing_up: Research Papers
-- [🔧 Platform & Ecosystem](#-platform--ecosystem)
-  - [Core Architecture](#core-architecture-3)
-  - [Skill Ecosystem & Supply Chain](#skill-ecosystem--supply-chain-6)
-- [🛡️ Trust & Safety](#%EF%B8%8F-trust--safety)
-  - [Threat Analysis & Taxonomies](#threat-analysis--taxonomies-8)
-  - [Adversarial Attacks](#adversarial-attacks-4)
-  - [Defensive Architectures](#defensive-architectures-4)
-- [🌐 Application & Society](#-application--society)
-  - [Domain Applications](#domain-applications-7)
-  - [Moltbook Social Dynamics](#moltbook-social-dynamics-18)
-  - [Ecosystem Perspectives](#ecosystem-perspectives-4)
+- [🔧 Platform](#-platform)
+  - [Core Architecture](#-core-architecture-5)
+  - [Skill Quality & Optimization](#-skill-quality--optimization-3)
+- [🛡️ Security](#%EF%B8%8F-security)
+  - [Threat Analysis & Taxonomies](#-threat-analysis--taxonomies-7)
+  - [Adversarial Attacks](#-adversarial-attacks-4)
+  - [Defensive Architectures](#-defensive-architectures-6)
+  - [Supply Chain Security](#-supply-chain-security-4)
+- [🌐 Ecosystem](#-ecosystem)
+  - [Platform Measurement & Network Structure](#-platform-measurement--network-structure-12)
+  - [Safety Dynamics & Norms](#-safety-dynamics--norms-5)
+  - [Learning & Coordination](#-learning--coordination-4)
+  - [Ecosystem Perspectives](#-ecosystem-perspectives-4)
+- [🚀 Application](#-application)
 
 ### :file_folder: Resources
 - [:shield: Industry Security Reports](#shield-industry-security-reports)
@@ -57,9 +61,9 @@ OpenClaw — the open-source, self-hosted AI agent platform created by Peter Ste
 
 ---
 
-## 🔧 Platform & Ecosystem
+## 🔧 Platform
 
-*How OpenClaw is built — core architecture extensions and skill supply chain. (9 papers)*
+*How OpenClaw is built — core architecture, learning, and skill infrastructure. (8 papers)*
 
 ### ⚙️ Core Architecture (5)
 
@@ -76,29 +80,18 @@ OpenClaw — the open-source, self-hosted AI agent platform created by Peter Ste
 <tbody>
 <tr><td>OpenClaw-RL: Train Any Agent Simply by Talking</td><td align="center">Mar 2026</td><td>Async RL from live interaction signals; combines evaluative and directive rewards</td><td align="center"><a href="https://arxiv.org/abs/2603.10165">Paper</a> <a href="https://github.com/Gen-Verse/OpenClaw-RL"><img src="https://img.shields.io/github/stars/Gen-Verse/OpenClaw-RL?style=social" alt="Stars"></a></td></tr>
 <tr><td>OpenCLAW-P2P: A Decentralized Framework for Collective AI Intelligence</td><td align="center">Mar 2026</td><td>Decentralized agent network with DHT, federated learning, and formal verification</td><td align="center"><a href="https://www.researchgate.net/publication/401449080">Paper</a></td></tr>
-<tr><td>Systems-Level Attack Surface of Edge Agent Deployments on IoT</td><td align="center">Feb 2026</td><td>Deployment architecture is the primary security determinant for edge agents</td><td align="center"><a href="https://arxiv.org/abs/2602.22525">Paper</a></td></tr>
 <tr><td>AgentOS: From Application Silos to a NL-Driven Data Ecosystem</td><td align="center">Mar 2026</td><td>Personal Agent OS replacing GUI with NL interaction; cites OpenClaw as exemplar</td><td align="center"><a href="https://arxiv.org/abs/2603.08938">Paper</a></td></tr>
 <tr><td>MetaClaw: Just Talk — An Agent That Meta-Learns and Evolves in the Wild</td><td align="center">Mar 2026</td><td>Continual meta-learning on OpenClaw; dynamic skill synthesis and policy optimization</td><td align="center"><a href="https://arxiv.org/abs/2603.17187">Paper</a></td></tr>
 </tbody>
 </table>
 
-### 📦 Skill Ecosystem & Supply Chain (6)
+### 📦 Skill Quality & Optimization (3)
 
 <table>
-<colgroup>
-<col style="width: 40%">
-<col style="width: 10%">
-<col style="width: 38%">
-<col style="width: 12%">
-</colgroup>
-<thead>
-<tr><th align="left">Title</th><th align="center">Date</th><th align="left">Key Contribution</th><th align="center">Links</th></tr>
-</thead>
+<colgroup><col style="width:40%"><col style="width:10%"><col style="width:38%"><col style="width:12%"></colgroup>
+<thead><tr><th align="left">Title</th><th align="center">Date</th><th align="left">Key Contribution</th><th align="center">Links</th></tr></thead>
 <tbody>
-<tr><td>SkillFortify: Formal Analysis and Supply Chain Security</td><td align="center">Feb 2026</td><td>First formal supply-chain framework with Dolev-Yao attacker model for skills</td><td align="center"><a href="https://arxiv.org/abs/2603.00195">Paper</a> <a href="https://github.com/varun369/skillfortify"><img src="https://img.shields.io/github/stars/varun369/skillfortify?style=social" alt="Stars"></a></td></tr>
-<tr><td>SkillProbe: Security Auditing via Multi-Agent Collaboration</td><td align="center">Mar 2026</td><td>Multi-agent auditing reveals most popular skills fail rigorous security checks</td><td align="center"><a href="https://arxiv.org/abs/2603.21019">Paper</a></td></tr>
 <tr><td>SkillClone: Multi-Modal Clone Detection ⭐ <b>ASE 2026</b></td><td align="center">Mar 2026</td><td>First multi-modal clone detector; massive ecosystem inflation from cloning</td><td align="center"><a href="https://arxiv.org/abs/2603.22447">Paper</a></td></tr>
-<tr><td>Malicious Or Not: Repository Context for Skill Classification</td><td align="center">Mar 2026</td><td>Largest skill ecosystem study; repo-context dramatically reduces false positives</td><td align="center"><a href="https://arxiv.org/abs/2603.16572">Paper</a></td></tr>
 <tr><td>SkillNet: Create, Evaluate, and Connect AI Skills</td><td align="center">Feb 2026</td><td>Unified skill ontology with multi-dimensional quality evaluation framework</td><td align="center"><a href="https://arxiv.org/abs/2603.04448">Paper</a> <a href="https://github.com/zjunlp/SkillNet"><img src="https://img.shields.io/github/stars/zjunlp/SkillNet?style=social" alt="Stars"></a></td></tr>
 <tr><td>SkillReducer: Optimizing LLM Agent Skills for Token Efficiency</td><td align="center">Mar 2026</td><td>Skill debloating framework compresses descriptions while preserving functionality</td><td align="center"><a href="https://arxiv.org/abs/2603.29919">Paper</a></td></tr>
 </tbody>
@@ -108,9 +101,9 @@ OpenClaw — the open-source, self-hosted AI agent platform created by Peter Ste
 
 ---
 
-## 🛡️ Trust & Safety
+## 🛡️ Security
 
-*Security challenges after deployment — threats, attacks, and defenses. (18 papers + industry reports)*
+*Threats, attacks, defenses, and supply chain security. (21 papers + industry reports)*
 
 ### 🔍 Threat Analysis & Taxonomies (7)
 
@@ -156,30 +149,28 @@ OpenClaw — the open-source, self-hosted AI agent platform created by Peter Ste
 </tbody>
 </table>
 
-<p align="right"><a href="#contents">Back to Top</a></p>
-
----
-
-## 🌐 Application & Society
-
-*Where OpenClaw is used and what emerges — domain applications, agent social dynamics, and ecosystem perspectives. (30 papers)*
-
-### 🚀 Domain Applications (6)
+### 🔗 Supply Chain Security (4)
 
 <table>
 <colgroup><col style="width:40%"><col style="width:10%"><col style="width:38%"><col style="width:12%"></colgroup>
 <thead><tr><th align="left">Title</th><th align="center">Date</th><th align="left">Key Contribution</th><th align="center">Links</th></tr></thead>
 <tbody>
-<tr><td>ROSClaw: OpenClaw ROS 2 Framework for Robot Control</td><td align="center">Mar 2026</td><td>Model-agnostic ROS 2 executive layer for multi-platform robot control</td><td align="center"><a href="https://arxiv.org/abs/2603.26997">Paper</a></td></tr>
-<tr><td>RoboClaw: Scalable Long-Horizon Robotic Tasks</td><td align="center">Mar 2026</td><td>VLM-driven controller with self-resetting data collection loops</td><td align="center"><a href="https://arxiv.org/abs/2603.11558">Paper</a> <a href="https://github.com/RoboClaw-Robotics/RoboClaw"><img src="https://img.shields.io/github/stars/RoboClaw-Robotics/RoboClaw?style=social" alt="Stars"></a></td></tr>
-<tr><td>When OpenClaw Meets Hospital</td><td align="center">Mar 2026</td><td>Hospital-adapted architecture with HIPAA compliance and manifest-guided memory</td><td align="center"><a href="https://arxiv.org/abs/2603.11721">Paper</a></td></tr>
-<tr><td>MedOpenClaw: Auditable Medical Imaging Agents over Uncurated Full Studies</td><td align="center">Mar 2026</td><td>Auditable OpenClaw runtime for VLM-based medical imaging with 3D volume navigation</td><td align="center"><a href="https://arxiv.org/abs/2603.24649">Paper</a></td></tr>
-<tr><td>Human-AI Partnership in Education ⭐ <b>AIED 2026</b></td><td align="center">Mar 2026</td><td>Emergent peer learning and trust dynamics across agent communities</td><td align="center"><a href="https://arxiv.org/abs/2603.16663">Paper</a></td></tr>
-<tr><td>From Agent-Only Networks to Autonomous Science (ClawdLab)</td><td align="center">Feb 2026</td><td>Autonomous scientific research platform with PI-led governance</td><td align="center"><a href="https://arxiv.org/abs/2602.19810">Paper</a> <a href="https://github.com/bio-xyz/ClawdLab"><img src="https://img.shields.io/github/stars/bio-xyz/ClawdLab?style=social" alt="Stars"></a></td></tr>
+<tr><td>SkillFortify: Formal Analysis and Supply Chain Security</td><td align="center">Feb 2026</td><td>First formal supply-chain framework with Dolev-Yao attacker model for skills</td><td align="center"><a href="https://arxiv.org/abs/2603.00195">Paper</a> <a href="https://github.com/varun369/skillfortify"><img src="https://img.shields.io/github/stars/varun369/skillfortify?style=social" alt="Stars"></a></td></tr>
+<tr><td>SkillProbe: Security Auditing via Multi-Agent Collaboration</td><td align="center">Mar 2026</td><td>Multi-agent auditing reveals most popular skills fail rigorous security checks</td><td align="center"><a href="https://arxiv.org/abs/2603.21019">Paper</a></td></tr>
+<tr><td>Malicious Or Not: Repository Context for Skill Classification</td><td align="center">Mar 2026</td><td>Largest skill ecosystem study; repo-context dramatically reduces false positives</td><td align="center"><a href="https://arxiv.org/abs/2603.16572">Paper</a></td></tr>
+<tr><td>Systems-Level Attack Surface of Edge Agent Deployments on IoT</td><td align="center">Feb 2026</td><td>Deployment architecture is the primary security determinant for edge agents</td><td align="center"><a href="https://arxiv.org/abs/2602.22525">Paper</a></td></tr>
 </tbody>
 </table>
 
-### Moltbook Social Dynamics (18)
+<p align="right"><a href="#contents">Back to Top</a></p>
+
+---
+
+## 🌐 Ecosystem
+
+*What happens when agents interact at scale — Moltbook social dynamics, safety phenomena, and ecosystem perspectives. (22 papers)*
+
+### Moltbook Social Dynamics (20)
 
 *The first agent-only social network with 1.5M+ registered AI agents.*
 
@@ -241,6 +232,27 @@ OpenClaw — the open-source, self-hosted AI agent platform created by Peter Ste
 <tr><td>A Survey on the Unique Security of LLM Agents</td><td align="center">Mar 2026</td><td>Manus (closed) vs OpenClaw (open) as two dominant paradigms</td><td align="center"><a href="https://www.preprints.org">Paper</a></td></tr>
 <tr><td>Clippy to MS Office : OpenClaw to the Entire System</td><td align="center">Mar 2026</td><td>Privacy Visual Wrapper; Agentic Trust Calibration Model</td><td align="center"><a href="https://www.researchgate.net/publication/402018930">Paper</a></td></tr>
 <tr><td>The Innovator's Dilemma in the Age of Autonomous Agents</td><td align="center">Feb 2026</td><td>"SaaSpocalypse" ($285B erased); "pincer disruption" concept</td><td align="center"><a href="https://www.researchgate.net/publication/400542271">Paper</a></td></tr>
+</tbody>
+</table>
+
+<p align="right"><a href="#contents">Back to Top</a></p>
+
+---
+
+## 🚀 Application
+
+*Where OpenClaw is deployed in specific domains. (8 papers)*
+
+<table>
+<colgroup><col style="width:40%"><col style="width:10%"><col style="width:38%"><col style="width:12%"></colgroup>
+<thead><tr><th align="left">Title</th><th align="center">Date</th><th align="left">Key Contribution</th><th align="center">Links</th></tr></thead>
+<tbody>
+<tr><td>ROSClaw: OpenClaw ROS 2 Framework for Robot Control</td><td align="center">Mar 2026</td><td>Model-agnostic ROS 2 executive layer for multi-platform robot control</td><td align="center"><a href="https://arxiv.org/abs/2603.26997">Paper</a></td></tr>
+<tr><td>RoboClaw: Scalable Long-Horizon Robotic Tasks</td><td align="center">Mar 2026</td><td>VLM-driven controller with self-resetting data collection loops</td><td align="center"><a href="https://arxiv.org/abs/2603.11558">Paper</a> <a href="https://github.com/RoboClaw-Robotics/RoboClaw"><img src="https://img.shields.io/github/stars/RoboClaw-Robotics/RoboClaw?style=social" alt="Stars"></a></td></tr>
+<tr><td>When OpenClaw Meets Hospital</td><td align="center">Mar 2026</td><td>Hospital-adapted architecture with HIPAA compliance and manifest-guided memory</td><td align="center"><a href="https://arxiv.org/abs/2603.11721">Paper</a></td></tr>
+<tr><td>MedOpenClaw: Auditable Medical Imaging Agents over Uncurated Full Studies</td><td align="center">Mar 2026</td><td>Auditable OpenClaw runtime for VLM-based medical imaging with 3D volume navigation</td><td align="center"><a href="https://arxiv.org/abs/2603.24649">Paper</a></td></tr>
+<tr><td>Human-AI Partnership in Education ⭐ <b>AIED 2026</b></td><td align="center">Mar 2026</td><td>Emergent peer learning and trust dynamics across agent communities</td><td align="center"><a href="https://arxiv.org/abs/2603.16663">Paper</a></td></tr>
+<tr><td>From Agent-Only Networks to Autonomous Science (ClawdLab)</td><td align="center">Feb 2026</td><td>Autonomous scientific research platform with PI-led governance</td><td align="center"><a href="https://arxiv.org/abs/2602.19810">Paper</a> <a href="https://github.com/bio-xyz/ClawdLab"><img src="https://img.shields.io/github/stars/bio-xyz/ClawdLab?style=social" alt="Stars"></a></td></tr>
 </tbody>
 </table>
 
