@@ -11,14 +11,14 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Papers-50+-blue?style=for-the-badge" alt="Papers"/>
+  <img src="https://img.shields.io/badge/Papers-53+-blue?style=for-the-badge" alt="Papers"/>
   <img src="https://img.shields.io/badge/Industry%20Reports-15+-orange?style=for-the-badge" alt="Reports"/>
-  <img src="https://img.shields.io/badge/Datasets-9-green?style=for-the-badge" alt="Datasets"/>
+  <img src="https://img.shields.io/badge/Datasets-11-green?style=for-the-badge" alt="Datasets"/>
   <img src="https://img.shields.io/badge/Taxonomy-PTA%203%20Layers-purple?style=for-the-badge" alt="Taxonomy"/>
   <img src="https://img.shields.io/badge/Last%20Updated-Apr%202026-red?style=for-the-badge" alt="Updated"/>
 </p>
 
-OpenClaw — the open-source, self-hosted AI agent platform created by Peter Steinberger (evolving from Clawdbot → Moltbot → OpenClaw on January 29, 2026) — has generated **50+ academic papers** and **20+ major industry reports** in under three months. This repository organizes the research landscape using a three-layer **PTA (Platform–Trust & Safety–Application)** taxonomy.
+OpenClaw — the open-source, self-hosted AI agent platform created by Peter Steinberger (evolving from Clawdbot → Moltbot → OpenClaw on January 29, 2026) — has generated **53+ academic papers** and **20+ major industry reports** in under three months. This repository organizes the research landscape using a three-layer **PTA (Platform–Trust & Safety–Application)** taxonomy.
 
 ---
 
@@ -27,9 +27,9 @@ OpenClaw — the open-source, self-hosted AI agent platform created by Peter Ste
 | Layer | Category | Papers | Sub-topics |
 |:-----:|:---------|:------:|:-----------|
 | 🔧 **P** | Platform & Ecosystem | 9 | Core architecture, RL training, skill supply chain |
-| 🛡️ **T** | Trust & Safety | 15 | Threat taxonomies, adversarial attacks, defenses |
-| 🌐 **A** | Application & Society | 26 | Robotics, healthcare, Moltbook dynamics, surveys |
-| | **Total** | **50** | |
+| 🛡️ **T** | Trust & Safety | 16 | Threat taxonomies, adversarial attacks, defenses |
+| 🌐 **A** | Application & Society | 28 | Robotics, healthcare, Moltbook dynamics, surveys |
+| | **Total** | **53** | |
 
 ---
 
@@ -108,7 +108,7 @@ OpenClaw — the open-source, self-hosted AI agent platform created by Peter Ste
 
 ## 🛡️ Trust & Safety
 
-*Security challenges after deployment — threats, attacks, and defenses. (15 papers + industry reports)*
+*Security challenges after deployment — threats, attacks, and defenses. (16 papers + industry reports)*
 
 ### 🔍 Threat Analysis & Taxonomies (7)
 
@@ -126,7 +126,7 @@ OpenClaw — the open-source, self-hosted AI agent platform created by Peter Ste
 </tbody>
 </table>
 
-### 🔥 Adversarial Attacks (3)
+### 🔥 Adversarial Attacks (4)
 
 <table>
 <colgroup><col style="width:40%"><col style="width:10%"><col style="width:38%"><col style="width:12%"></colgroup>
@@ -135,6 +135,7 @@ OpenClaw — the open-source, self-hosted AI agent platform created by Peter Ste
 <tr><td>Clawdrain: Token Exhaustion via Tool-Calling Chains</td><td align="center">Mar 2026</td><td>Trojanized skill causes massive token amplification; denial-of-wallet attack</td><td align="center"><a href="https://arxiv.org/abs/2603.00902">Paper</a></td></tr>
 <tr><td>ClawWorm: Self-Propagating Attacks Across Agent Ecosystems</td><td align="center">Mar 2026</td><td>First self-replicating worm for a production agent framework</td><td align="center"><a href="https://arxiv.org/abs/2603.15727">Paper</a></td></tr>
 <tr><td>HEARTBEAT: Silent Memory Pollution via Background Execution</td><td align="center">Mar 2026</td><td>Exploits heartbeat cycle as covert channel for persistent backdoor injection</td><td align="center"><a href="https://arxiv.org/abs/2603.23064">Paper</a></td></tr>
+<tr><td>Skill-Inject: Measuring Agent Vulnerability to Skill File Attacks</td><td align="center">Feb 2026</td><td>Benchmark of 202 injection-task pairs; up to 80% ASR on frontier LLMs via skill files</td><td align="center"><a href="https://arxiv.org/abs/2602.20156">Paper</a> <a href="https://github.com/aisa-group/skill-inject"><img src="https://img.shields.io/github/stars/aisa-group/skill-inject?style=social" alt="Stars"></a></td></tr>
 </tbody>
 </table>
 
@@ -157,7 +158,7 @@ OpenClaw — the open-source, self-hosted AI agent platform created by Peter Ste
 
 ## 🌐 Application & Society
 
-*Where OpenClaw is used and what emerges — domain applications, agent social dynamics, and ecosystem perspectives. (26 papers)*
+*Where OpenClaw is used and what emerges — domain applications, agent social dynamics, and ecosystem perspectives. (28 papers)*
 
 ### 🚀 Domain Applications (5)
 
@@ -192,6 +193,8 @@ OpenClaw — the open-source, self-hosted AI agent platform created by Peter Ste
 <tr><td>MoltNet: Understanding Social Behavior of AI Agents</td><td align="center">Feb 2026</td><td>Agents selectively mimic human behavior; persona drift after social rewards</td><td align="center"><a href="https://arxiv.org/abs/2602.13458">Paper</a> <a href="https://github.com/iNLP-Lab/MoltNet"><img src="https://img.shields.io/github/stars/iNLP-Lab/MoltNet?style=social" alt="Stars"></a></td></tr>
 <tr><td>Social Simulacra in the Wild: AI vs Human Communities</td><td align="center">Mar 2026</td><td>First AI-vs-human community comparison; structural homogenization found</td><td align="center"><a href="https://arxiv.org/abs/2603.16128">Paper</a></td></tr>
 <tr><td>Scientific Discussions on Moltbook (BERTopic)</td><td align="center">Mar 2026</td><td>Topic modeling of AI science discourse; self-referential discussion patterns</td><td align="center"><a href="https://arxiv.org/abs/2603.11375">Paper</a></td></tr>
+<tr><td>Fast Response or Silence: Conversation Persistence on Moltbook</td><td align="center">Feb 2026</td><td>Two-part persistence decomposition; low incidence is the binding coordination bottleneck</td><td align="center"><a href="https://arxiv.org/abs/2602.07667">Paper</a></td></tr>
+<tr><td>Comparative Analysis of Social Network Topology in Reddit and Moltbook</td><td align="center">Feb 2026</td><td>First topological comparison; Moltbook operates as broadcast network, not social community</td><td align="center"><a href="https://arxiv.org/abs/2602.13920">Paper</a></td></tr>
 </tbody>
 </table>
 
@@ -364,6 +367,8 @@ OpenClaw — the open-source, self-hosted AI agent platform created by Peter Ste
 | LLMail-Inject | Privilege Sep. | 649 attacks | Prompt injection; 0% ASR with defense | [Paper](https://arxiv.org/abs/2603.13424) |
 | ClawHub Corpus | Malicious Or Not | 238,180 skills | Largest skill dataset across 4 registries | [Paper](https://arxiv.org/abs/2603.16572) |
 | SkillClone Corpus | SkillClone | 20,000 skills | 258K clone pairs; 75% involved | [Paper](https://arxiv.org/abs/2603.22447) |
+| Moltbook Observatory Archive | SimulaMet | 2M+ rows | 923K posts, 882K comments, 102K agents; foundational dataset for 14+ Moltbook papers | [Dataset](https://huggingface.co/datasets/SimulaMet/moltbook-observatory-archive) |
+| Skill-Inject Benchmark | Skill-Inject | 202 pairs | Injection-task pairs measuring agent vulnerability to skill file attacks | [Paper](https://arxiv.org/abs/2602.20156) |
 
 <p align="right"><a href="#contents">Back to Top</a></p>
 
