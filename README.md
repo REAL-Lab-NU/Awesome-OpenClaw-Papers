@@ -97,7 +97,7 @@ timeline
 
 ### ⚙️ Core Architecture (3)
 
-| Title | Date | Key Contribution | Links |
+| Title&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Date | Key Contribution&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Links |
 |:------|:----:|:-----------------|:-----:|
 | OpenClaw-RL: Train Any Agent Simply by Talking | Mar 2026 | Async RL from live interaction signals; combines evaluative and directive rewards | [Paper](https://arxiv.org/abs/2603.10165) [Code](https://github.com/Gen-Verse/OpenClaw-RL) |
 | OpenCLAW-P2P: A Decentralized Framework for Collective AI Intelligence | Mar 2026 | Decentralized agent network with DHT, federated learning, and formal verification | [Paper](https://www.researchgate.net/publication/401449080) |
@@ -105,7 +105,7 @@ timeline
 
 ### 📦 Skill Ecosystem & Supply Chain (6)
 
-| Title | Date | Key Contribution | Links |
+| Title&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Date | Key Contribution&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Links |
 |:------|:----:|:-----------------|:-----:|
 | SkillFortify: Formal Analysis and Supply Chain Security | Feb 2026 | First formal supply-chain framework with Dolev-Yao attacker model for skills | [Paper](https://arxiv.org/abs/2603.00195) [Code](https://github.com/varun369/skillfortify) |
 | SkillProbe: Security Auditing via Multi-Agent Collaboration | Mar 2026 | Multi-agent auditing reveals most popular skills fail rigorous security checks | [Paper](https://arxiv.org/abs/2603.21019) |
@@ -124,7 +124,7 @@ timeline
 
 ### 🔍 Threat Analysis & Taxonomies (8)
 
-| Title | Date | Key Contribution | Links |
+| Title&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Date | Key Contribution&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Links |
 |:------|:----:|:-----------------|:-----:|
 | Uncovering Security Threats in Autonomous Agents (FASA) | Mar 2026 | Tri-layered risk taxonomy with full-lifecycle defense architecture | [Paper](https://arxiv.org/abs/2603.12644) [Code](https://github.com/NY1024/ClawGuard) |
 | Don't Let the Claw Grip Your Hand | Mar 2026 | Empirical red-teaming across six LLMs; human-in-the-loop defense layer | [Paper](https://arxiv.org/abs/2603.10387) [Code](https://github.com/S2yyyy/OpenClaw-Analysis) |
@@ -137,7 +137,7 @@ timeline
 
 ### 🔥 Adversarial Attacks (4)
 
-| Title | Date | Key Contribution | Links |
+| Title&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Date | Key Contribution&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Links |
 |:------|:----:|:-----------------|:-----:|
 | Clawdrain: Token Exhaustion via Tool-Calling Chains | Mar 2026 | Trojanized skill causes massive token amplification; denial-of-wallet attack | [Paper](https://arxiv.org/abs/2603.00902) |
 | ClawWorm: Self-Propagating Attacks Across Agent Ecosystems | Mar 2026 | First self-replicating worm for a production agent framework | [Paper](https://arxiv.org/abs/2603.15727) |
@@ -146,7 +146,7 @@ timeline
 
 ### 🛡️ Defensive Architectures (4)
 
-| Title | Date | Key Contribution | Links |
+| Title&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Date | Key Contribution&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Links |
 |:------|:----:|:-----------------|:-----:|
 | OpenClaw PRISM: Zero-Fork Runtime Security Layer | Mar 2026 | Defense-in-depth across 10 lifecycle hooks with risk accumulation and decay | [Paper](https://arxiv.org/abs/2603.11853) |
 | Agent Privilege Separation Against Prompt Injection | Mar 2026 | Two-agent architecture eliminates prompt injection for constrained tasks | [Paper](https://arxiv.org/abs/2603.13424) |
@@ -163,7 +163,7 @@ timeline
 
 ### 🚀 Domain Applications (7)
 
-| Title | Date | Key Contribution | Links |
+| Title&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Date | Key Contribution&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Links |
 |:------|:----:|:-----------------|:-----:|
 | ROSClaw: OpenClaw ROS 2 Framework for Robot Control | Mar 2026 | Model-agnostic ROS 2 executive layer for multi-platform robot control | [Paper](https://arxiv.org/abs/2603.26997) |
 | RoboClaw: Scalable Long-Horizon Robotic Tasks | Mar 2026 | VLM-driven controller with self-resetting data collection loops | [Paper](https://arxiv.org/abs/2603.11558) [Code](https://github.com/RoboClaw-Robotics/RoboClaw) |
@@ -179,7 +179,7 @@ timeline
 
 #### 📊 Platform Measurement & Network Structure
 
-| Title | Date | Key Contribution | Links |
+| Title&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Date | Key Contribution&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Links |
 |:------|:----:|:-----------------|:-----:|
 | Collective Behavior of AI Agents: the Case of Moltbook | Feb 2026 | Large-scale statistical analysis showing human-like attention dynamics | [Paper](https://arxiv.org/abs/2602.09270) |
 | Exploring Silicon-Based Societies | Feb 2026 | "Data-driven silicon sociology" framework; emergent community archetypes | [Paper](https://arxiv.org/abs/2602.02613) |
@@ -193,7 +193,7 @@ timeline
 
 #### ⚠️ Safety, Norms & Emergent Behavior
 
-| Title | Date | Key Contribution | Links |
+| Title&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Date | Key Contribution&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Links |
 |:------|:----:|:-----------------|:-----:|
 | The Moltbook Illusion: Human vs Emergent Behavior | Feb 2026 | Temporal fingerprinting separates autonomous from human-influenced agents | [Paper](https://arxiv.org/abs/2602.07432) [Code](https://github.com/ln9527/moltbook-research) |
 | The Devil Behind Moltbook: Safety Vanishing | Feb 2026 | Proves self-evolution trilemma impossibility result for agent societies | [Paper](https://arxiv.org/abs/2602.09877) |
@@ -203,7 +203,7 @@ timeline
 
 #### 🔗 Learning & Coordination
 
-| Title | Date | Key Contribution | Links |
+| Title&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Date | Key Contribution&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Links |
 |:------|:----:|:-----------------|:-----:|
 | Peer Learning Patterns in the Moltbook Community | Feb 2026 | Taxonomy of peer response patterns: validation, extension, application | [Paper](https://arxiv.org/abs/2602.14477) |
 | Informal Learners at Moltbook: Emergent Learning at Scale | Feb 2026 | Extreme broadcasting inversion; parallel monologues dominate interaction | [Paper](https://arxiv.org/abs/2602.18832) |
@@ -212,7 +212,7 @@ timeline
 
 ### 🔭 Ecosystem Perspectives (4)
 
-| Title | Date | Key Contribution | Links |
+| Title&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Date | Key Contribution&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Links |
 |:------|:----:|:-----------------|:-----:|
 | OpenClaw as Language Infrastructure: A Case-Centered Survey | Mar 2026 | GATE and AERO analytical frameworks; 38 papers surveyed | [Paper](https://doi.org/10.20944/preprints202603.1060.v1) |
 | A Survey on the Unique Security of LLM Agents | Mar 2026 | Manus (closed) vs OpenClaw (open) as two dominant paradigms | [Paper](https://www.preprints.org) |
