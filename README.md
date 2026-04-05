@@ -33,37 +33,9 @@ OpenClaw — the open-source, self-hosted AI agent platform created by Peter Ste
 
 ### Research Timeline
 
-```mermaid
-timeline
-    title OpenClaw Research Ecosystem Timeline
-    section January 2026
-        Jan 29 : OpenClaw released (renamed from Moltbot)
-    section February 2026
-        Early Feb : First papers emerge
-                  : Moltbook social dynamics studies
-                  : PASB benchmark, SLINGSHOT jailbreak
-        Feb 3-4   : "SaaSpocalypse" ($285B erased)
-        Feb 6     : Trend Micro first report
-        Feb 19    : Microsoft Security advisory
-        Mid Feb   : CVE-2026-25253 disclosed
-        Late Feb  : ClawHavoc campaign (824+ malicious skills)
-                  : SkillFortify, Edge deployment study
-    section March 2026
-        Early Mar : Security paper surge
-                  : Threat taxonomies (S1-S5)
-                  : Clawdrain token exhaustion
-                  : OpenClaw-RL, RoboClaw, ROSClaw
-        Mid Mar   : ClawWorm self-propagating worm
-                  : Defense papers (PRISM, OAP, VeriGrey)
-                  : NVIDIA NemoClaw at GTC
-                  : SkillClone accepted at ASE 2026
-        Late Mar  : Supply chain studies
-                  : HEARTBEAT memory pollution
-                  : ClawdLab for autonomous science
-    section April 2026
-        Apr 2026  : 54+ papers, 20+ industry reports
-                  : This survey repository launched
-```
+<p align="center">
+  <img src="assets/timeline.png" alt="OpenClaw Research Ecosystem Timeline" width="900"/>
+</p>
 
 ---
 
