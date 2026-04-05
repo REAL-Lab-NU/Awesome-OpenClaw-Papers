@@ -74,30 +74,32 @@ timeline
 
 ## Contents
 
-- [Research Papers](#research-papers)
-  - [1. Core Platform & Architecture](#1-core-platform--architecture)
-  - [2. Skill Ecosystem & Supply Chain](#2-skill-ecosystem--supply-chain)
-  - [3. Security & Trust](#3-security--trust)
-    - [3.1 Threat Analysis & Taxonomies](#31-threat-analysis--taxonomies)
-    - [3.2 Adversarial Attacks](#32-adversarial-attacks)
-    - [3.3 Defensive Architectures](#33-defensive-architectures)
-  - [4. Agent Social Dynamics (Moltbook)](#4-agent-social-dynamics-moltbook)
-    - [4.1 Platform Measurement & Network Structure](#41-platform-measurement--network-structure)
-    - [4.2 Safety, Norms & Emergent Behavior](#42-safety-norms--emergent-behavior)
-    - [4.3 Learning & Coordination](#43-learning--coordination)
-  - [5. Applications & Domains](#5-applications--domains)
-  - [6. Ecosystem Perspectives](#6-ecosystem-perspectives)
-- [Industry Security Reports](#industry-security-reports)
-- [Open-Source Projects & Tools](#open-source-projects--tools)
-- [Datasets & Benchmarks](#datasets--benchmarks)
-- [Related Awesome Lists](#related-awesome-lists)
-- [Contributing](#contributing)
+### Research Papers
+- [1. Core Platform & Architecture](#1--core-platform--architecture)
+- [2. Skill Ecosystem & Supply Chain](#2--skill-ecosystem--supply-chain)
+- [3. Security & Trust](#3--security--trust)
+  - [3.1 Threat Analysis & Taxonomies](#31-threat-analysis--taxonomies)
+  - [3.2 Adversarial Attacks](#32-adversarial-attacks)
+  - [3.3 Defensive Architectures](#33-defensive-architectures)
+- [4. Agent Social Dynamics (Moltbook)](#4--agent-social-dynamics-moltbook)
+  - [4.1 Platform Measurement & Network Structure](#41-platform-measurement--network-structure)
+  - [4.2 Safety, Norms & Emergent Behavior](#42-safety-norms--emergent-behavior)
+  - [4.3 Learning & Coordination](#43-learning--coordination)
+- [5. Applications & Domains](#5--applications--domains)
+- [6. Ecosystem Perspectives](#6--ecosystem-perspectives)
+
+### Resources
+- [Industry Security Reports](#-industry-security-reports)
+- [Open-Source Projects & Tools](#-open-source-projects--tools)
+- [Datasets & Benchmarks](#-datasets--benchmarks)
+- [Related Awesome Lists](#-related-awesome-lists)
+- [Contributing](#-contributing)
 
 ---
 
 ## Research Papers
 
-### 1. Core Platform & Architecture
+### 1. <img src="https://img.shields.io/badge/-L1-blue?style=flat-square" alt="L1"/> Core Platform & Architecture
 
 Papers that extend or modify the OpenClaw framework itself — new training paradigms, integration layers, deployment models.
 
@@ -125,7 +127,9 @@ Papers that extend or modify the OpenClaw framework itself — new training para
   [[Paper](https://arxiv.org/abs/2602.22525)]
   > Empirical security comparison of cloud, edge-local, and hybrid agent architectures; identifies 40,000+ exposed OpenClaw gateways and concludes deployment architecture is the primary security determinant.
 
-### 2. Skill Ecosystem & Supply Chain
+<p align="right"><a href="#contents">Back to Top</a></p>
+
+### 2. <img src="https://img.shields.io/badge/-L2-green?style=flat-square" alt="L2"/> Skill Ecosystem & Supply Chain
 
 Papers investigating the ClawHub marketplace, skill security, and broader ecosystem challenges.
 
@@ -153,9 +157,11 @@ Papers investigating the ClawHub marketplace, skill security, and broader ecosys
   [[Paper](https://arxiv.org/abs/2603.29919)]
   > Studies 55,315 public skills; finds 26.4% lack routing descriptions and 60%+ of body content is non-actionable; proposes two-stage optimization.
 
-### 3. Security & Trust
+<p align="right"><a href="#contents">Back to Top</a></p>
 
-The largest research cluster (15 papers), examining OpenClaw's attack surface from threat analysis through novel attacks to defensive systems.
+### 3. <img src="https://img.shields.io/badge/-L3-red?style=flat-square" alt="L3"/> Security & Trust
+
+The largest research cluster (16 papers), examining OpenClaw's attack surface from threat analysis through novel attacks to defensive systems.
 
 #### 3.1 Threat Analysis & Taxonomies
 
@@ -227,9 +233,11 @@ The largest research cluster (15 papers), examining OpenClaw's attack surface fr
   [[Paper](https://arxiv.org/abs/2603.17639)]
   > Grey-box testing using tool invocation sequences as coverage feedback; outperforms black-box by 33% on AgentDojo; 100% vulnerability discovery on Kimi-K2.5.
 
-### 4. Agent Social Dynamics (Moltbook)
+<p align="right"><a href="#contents">Back to Top</a></p>
 
-The most-studied aspect of the ecosystem (14 papers), analyzing the Reddit-like platform exclusively populated by AI agents.
+### 4. <img src="https://img.shields.io/badge/-L4-orange?style=flat-square" alt="L4"/> Agent Social Dynamics (Moltbook)
+
+The most-studied aspect of the ecosystem (18 papers), analyzing the Reddit-like platform exclusively populated by AI agents.
 
 #### 4.1 Platform Measurement & Network Structure
 
@@ -309,7 +317,9 @@ The most-studied aspect of the ecosystem (14 papers), analyzing the Reddit-like 
   [[Paper](https://arxiv.org/abs/2603.03555)]
   > Studies 770,000+ agents over three weeks; role specialization, decentralized information dissemination; power-law cascade sizes; 6.7% multi-agent collaboration success rate.
 
-### 5. Applications & Domains
+<p align="right"><a href="#contents">Back to Top</a></p>
+
+### 5. <img src="https://img.shields.io/badge/-L5-yellow?style=flat-square" alt="L5"/> Applications & Domains
 
 Papers that use OpenClaw to solve specific domain problems — healthcare, finance, education, general assistance.
 
@@ -329,7 +339,9 @@ Papers that use OpenClaw to solve specific domain problems — healthcare, finan
   [[Paper](https://arxiv.org/abs/2603.16663)]
   > Qualitative observations across Moltbook, The Colony, 4claw (~167,000+ agents); proposes "Learn by Teaching Your AI Agent Teammate" curriculum.
 
-### 6. Ecosystem Perspectives
+<p align="right"><a href="#contents">Back to Top</a></p>
+
+### 6. <img src="https://img.shields.io/badge/-L6-lightgrey?style=flat-square" alt="L6"/> Ecosystem Perspectives
 
 Surveys, conceptual analyses, and strategic assessments of the OpenClaw ecosystem.
 
@@ -351,7 +363,9 @@ Surveys, conceptual analyses, and strategic assessments of the OpenClaw ecosyste
 
 ---
 
-## Industry Security Reports
+<p align="right"><a href="#contents">Back to Top</a></p>
+
+## :shield: Industry Security Reports
 
 Major security analyses from industry research teams.
 
@@ -375,17 +389,19 @@ Major security analyses from industry research teams.
 
 ---
 
-## Open-Source Projects & Tools
+<p align="right"><a href="#contents">Back to Top</a></p>
 
-> Our unique angle: each tool is annotated with **[Paper]** tags linking to relevant research in our taxonomy. This helps researchers find implementations related to the papers they study.
+## :wrench: Open-Source Projects & Tools
 
-### Core Platform
+> :bulb: **Our unique angle:** each tool is annotated with **[Paper]** tags linking to relevant research in our taxonomy. This helps researchers find implementations related to the papers they study.
+
+### :lobster: Core Platform
 
 - [openclaw/openclaw](https://github.com/openclaw/openclaw) ![Stars](https://img.shields.io/github/stars/openclaw/openclaw?style=social) - The official OpenClaw repository
 - [openclaw/skills](https://github.com/openclaw/skills) ![Stars](https://img.shields.io/github/stars/openclaw/skills?style=social) - Official skills repository
 - [ClawHub](https://clawhub.com) - Official skill marketplace (13,700+ skills) **[Papers: E1-E6]**
 
-### Extensions & Research Frameworks
+### :rocket: Extensions & Research Frameworks
 
 - [Gen-Verse/OpenClaw-RL](https://github.com/Gen-Verse/OpenClaw-RL) ![Stars](https://img.shields.io/github/stars/Gen-Verse/OpenClaw-RL?style=social) - Asynchronous RL training framework **[Paper: X1]**
 - [MINT-SJTU/RoboClaw](https://github.com/MINT-SJTU/RoboClaw) ![Stars](https://img.shields.io/github/stars/MINT-SJTU/RoboClaw?style=social) - VLM-driven agentic framework for long-horizon robotic tasks **[Paper: RoboClaw]**
@@ -394,9 +410,9 @@ Major security analyses from industry research teams.
 - **ClawdLab** - Autonomous scientific research platform with PI-led governance **[Paper: X3]**
 - **SkillNet** - Open infrastructure for creating and evaluating 200,000+ AI skills **[Paper: E5]**
 
-### Security & Auditing Tools
+### :lock: Security & Auditing Tools
 
-*Tools for securing OpenClaw deployments — directly relevant to papers in [Section 3: Security & Trust](#3-security--trust).*
+*Tools for securing OpenClaw deployments — directly relevant to papers in [Section 3: Security & Trust](#3--security--trust).*
 
 - **ClawGuard** - Full-lifecycle agent security platform with FASA architecture **[Paper: S1]**
 - **PRISM** - Zero-fork, defense-in-depth runtime security layer across 10 lifecycle hooks **[Paper: D1]**
@@ -411,7 +427,7 @@ Major security analyses from industry research teams.
 - [nearai/ironclaw](https://github.com/nearai/ironclaw) ![Stars](https://img.shields.io/github/stars/nearai/ironclaw?style=social) - Privacy/security-focused Rust implementation **[Referenced in: S5]**
 - [ucsandman/dashclaw](https://github.com/ucsandman/dashclaw) ![Stars](https://img.shields.io/github/stars/ucsandman/dashclaw?style=social) - Governance policies, HITL approvals, risk scoring, audit trails **[Related: D2, D3]**
 
-### Memory & Context Systems
+### :brain: Memory & Context Systems
 
 *Highly relevant to memory poisoning attacks [Paper: A4] and agent learning dynamics [Papers: M3, M4].*
 
@@ -423,7 +439,7 @@ Major security analyses from industry research teams.
 - [supermemoryai/openclaw-supermemory](https://github.com/supermemoryai/openclaw-supermemory) ![Stars](https://img.shields.io/github/stars/supermemoryai/openclaw-supermemory?style=social) - Long-term memory extension
 - [volcengine/OpenViking](https://github.com/volcengine/OpenViking) ![Stars](https://img.shields.io/github/stars/volcengine/OpenViking?style=social) - Context database for AI agents via file system paradigm
 
-### Deployment & Infrastructure
+### :cloud: Deployment & Infrastructure
 
 *Relevant to edge deployment security analysis [Paper: I1] and the 40,000+ exposed instances finding.*
 
@@ -434,7 +450,7 @@ Major security analyses from industry research teams.
 - [serithemage/serverless-openclaw](https://github.com/serithemage/serverless-openclaw) ![Stars](https://img.shields.io/github/stars/serithemage/serverless-openclaw?style=social) - AWS serverless deployment with low idle cost
 - [1Panel-dev/1Panel](https://github.com/1Panel-dev/1Panel) ![Stars](https://img.shields.io/github/stars/1Panel-dev/1Panel?style=social) - Server panel with one-click OpenClaw deployment
 
-### Dashboards & Management
+### :desktop_computer: Dashboards & Management
 
 - [grp06/openclaw-studio](https://github.com/grp06/openclaw-studio) ![Stars](https://img.shields.io/github/stars/grp06/openclaw-studio?style=social) - Clean web dashboard for agent management
 - [abhi1693/openclaw-mission-control](https://github.com/abhi1693/openclaw-mission-control) ![Stars](https://img.shields.io/github/stars/abhi1693/openclaw-mission-control?style=social) - Multi-agent orchestration dashboard
@@ -442,7 +458,7 @@ Major security analyses from industry research teams.
 - [ValueCell-ai/ClawX](https://github.com/ValueCell-ai/ClawX) ![Stars](https://img.shields.io/github/stars/ValueCell-ai/ClawX?style=social) - Desktop GUI for managing agents without terminal
 - [vivekchand/clawmetry](https://github.com/vivekchand/clawmetry) ![Stars](https://img.shields.io/github/stars/vivekchand/clawmetry?style=social) - Observability: token costs, session drift, memory alerts
 
-### Channel Integrations
+### :speech_balloon: Channel Integrations
 
 - [4Players/openclaw-docker](https://github.com/4Players/openclaw-docker) ![Stars](https://img.shields.io/github/stars/4Players/openclaw-docker?style=social) - Multi-channel Docker image (WhatsApp, Telegram, Discord, Slack)
 - [dingxiang-me/OpenClaw-Wechat](https://github.com/dingxiang-me/OpenClaw-Wechat) ![Stars](https://img.shields.io/github/stars/dingxiang-me/OpenClaw-Wechat?style=social) - WeChat/WeCom integration with streaming support
@@ -450,7 +466,7 @@ Major security analyses from industry research teams.
 - [BytePioneer-AI/openclaw-china](https://github.com/BytePioneer-AI/openclaw-china) ![Stars](https://img.shields.io/github/stars/BytePioneer-AI/openclaw-china?style=social) - China-focused plugin pack (Feishu, DingTalk, QQ, WeChat)
 - [onfabric/waclaw](https://github.com/onfabric/waclaw) ![Stars](https://img.shields.io/github/stars/onfabric/waclaw?style=social) - Self-hosted WhatsApp router for agent fleets
 
-### Alternative Clients & Runtimes
+### :zap: Alternative Clients & Runtimes
 
 - [HKUDS/nanobot](https://github.com/HKUDS/nanobot) ![Stars](https://img.shields.io/github/stars/HKUDS/nanobot?style=social) - Ultra-lightweight OpenClaw-style alternative
 - [moltis-org/moltis](https://github.com/moltis-org/moltis) ![Stars](https://img.shields.io/github/stars/moltis-org/moltis?style=social) - Rust-native runtime with sandboxing and voice support
@@ -458,36 +474,38 @@ Major security analyses from industry research teams.
 - [HKUDS/ClawTeam](https://github.com/HKUDS/ClawTeam) ![Stars](https://img.shields.io/github/stars/HKUDS/ClawTeam?style=social) - Agent swarm automation framework
 - [htlin222/mini-claw](https://github.com/htlin222/mini-claw) ![Stars](https://img.shields.io/github/stars/htlin222/mini-claw?style=social) - Minimalist lightweight personal AI assistant
 
-### Domain-Specific Skills
+### :microscope: Domain-Specific Skills
 
 - [FreedomIntelligence/OpenClaw-Medical-Skills](https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills) ![Stars](https://img.shields.io/github/stars/FreedomIntelligence/OpenClaw-Medical-Skills?style=social) - Medical skills library **[Related: P1]**
 - [ClawBio/ClawBio](https://github.com/ClawBio/ClawBio) ![Stars](https://img.shields.io/github/stars/ClawBio/ClawBio?style=social) - Bioinformatics-native skill library
 - [BlockRunAI/ClawRouter](https://github.com/BlockRunAI/ClawRouter) ![Stars](https://img.shields.io/github/stars/BlockRunAI/ClawRouter?style=social) - LLM router with model selection and cost control **[Related: A1 (token costs)]**
 
-### Learning Resources
+### :books: Learning Resources
 
 - [datawhalechina/hello-claw](https://github.com/datawhalechina/hello-claw) ![Stars](https://img.shields.io/github/stars/datawhalechina/hello-claw?style=social) - Structured Chinese tutorial for OpenClaw
 - [centminmod/explain-openclaw](https://github.com/centminmod/explain-openclaw) ![Stars](https://img.shields.io/github/stars/centminmod/explain-openclaw?style=social) - Multi-AI documentation covering architecture, security, deployment
 
 ---
 
-## Datasets & Benchmarks
+## :bar_chart: Datasets & Benchmarks
 
-| Dataset/Benchmark | Source Paper | Description |
-|---|---|---|
-| **SkillFortifyBench** | E1 (SkillFortify) | 540 skills for supply chain security evaluation; 96.95% F1 |
-| **PASB** | S7 | Personalized Agent Security Bench; 131 threatening tools |
-| **MoltGraph** | M13 | Temporal heterogeneous graph of Moltbook for coordination detection |
-| **ATBench** | S6 | Trajectory-based safety audit benchmark (34 test cases) |
-| **LPS-Bench** | S6 | Safety evaluation benchmark for agent trajectories |
-| **AgentDojo** | D4 (VeriGrey) | Agent security testing benchmark |
-| **LLMail-Inject** | D2 | 649 prompt injection attacks for email agent testing |
-| **ClawHub Skill Corpus** | E4 | 238,180 unique skills for classification research |
-| **SkillClone Corpus** | E3 | 20,000 skills with 258,000 clone pairs |
+| Dataset/Benchmark | Source | Scale | Description | Link |
+|:---|:---|:---|:---|:---:|
+| **SkillFortifyBench** | SkillFortify (E1) | 540 skills | Supply chain security evaluation; 96.95% F1 | [[Paper](https://arxiv.org/abs/2603.00195)] |
+| **PASB** | Double Agent (S7) | 131 tools | Personalized Agent Security Bench for long-horizon attack evaluation | [[Paper](https://arxiv.org/abs/2602.08412)] |
+| **MoltGraph** | MoltGraph (M13) | 6,159 agents | Temporal heterogeneous graph for coordinated-agent detection | [[Paper](https://arxiv.org/abs/2603.00646)] |
+| **ATBench** | Safety Audit (S6) | 34 cases | Trajectory-based safety audit benchmark across 6 risk dimensions | [[Paper](https://arxiv.org/abs/2602.14364)] |
+| **LPS-Bench** | Safety Audit (S6) | - | Safety evaluation benchmark for agent trajectories | [[Paper](https://arxiv.org/abs/2602.14364)] |
+| **AgentDojo** | VeriGrey (D4) | - | Agent security testing benchmark (33% improvement via grey-box) | [[Paper](https://arxiv.org/abs/2603.17639)] |
+| **LLMail-Inject** | Privilege Sep. (D2) | 649 attacks | Prompt injection attacks for email agent testing; 0% ASR with defense | [[Paper](https://arxiv.org/abs/2603.13424)] |
+| **ClawHub Skill Corpus** | Malicious Or Not (E4) | 238,180 skills | Largest skill dataset across 4 registries for classification research | [[Paper](https://arxiv.org/abs/2603.16572)] |
+| **SkillClone Corpus** | SkillClone (E3) | 20,000 skills | 258,000 clone pairs; 75% skills involved in cloning | [[Paper](https://arxiv.org/abs/2603.22447)] |
 
 ---
 
-## Related Awesome Lists
+<p align="right"><a href="#contents">Back to Top</a></p>
+
+## :link: Related Awesome Lists
 
 - [VoltAgent/awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) ![Stars](https://img.shields.io/github/stars/VoltAgent/awesome-openclaw-skills?style=social) - Curated list of 5,211 OpenClaw skills
 - [hesamsheikh/awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases) ![Stars](https://img.shields.io/github/stars/hesamsheikh/awesome-openclaw-usecases?style=social) - 42 verified OpenClaw use cases
@@ -496,19 +514,21 @@ Major security analyses from industry research teams.
 
 ---
 
-## Contributing
+<p align="right"><a href="#contents">Back to Top</a></p>
+
+## :handshake: Contributing
 
 Contributions are welcome! Please read the [contributing guidelines](CONTRIBUTING.md) first.
 
 We especially welcome:
-- New papers not yet listed (particularly from late March - April 2026)
-- Code repositories associated with listed papers
-- Industry reports and technical analyses
-- Datasets and benchmarks from the ecosystem
+- :page_facing_up: New papers not yet listed (particularly from late March - April 2026)
+- :computer: Code repositories associated with listed papers
+- :shield: Industry reports and technical analyses
+- :bar_chart: Datasets and benchmarks from the ecosystem
 
 ---
 
-## Citation
+## :pencil: Citation
 
 If you find this resource useful, please cite our survey paper:
 
@@ -523,7 +543,7 @@ If you find this resource useful, please cite our survey paper:
 
 ---
 
-## Star History
+## :star2: Star History
 
 <a href="https://star-history.com/#REAL-Lab-NU/Awesome-OpenClaw-Research&Date">
  <picture>
