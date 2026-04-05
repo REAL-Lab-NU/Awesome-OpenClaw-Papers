@@ -11,14 +11,14 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Papers-53+-blue?style=for-the-badge" alt="Papers"/>
+  <img src="https://img.shields.io/badge/Papers-55+-blue?style=for-the-badge" alt="Papers"/>
   <img src="https://img.shields.io/badge/Industry%20Reports-15+-orange?style=for-the-badge" alt="Reports"/>
   <img src="https://img.shields.io/badge/Datasets-11-green?style=for-the-badge" alt="Datasets"/>
   <img src="https://img.shields.io/badge/Taxonomy-PTA%203%20Layers-purple?style=for-the-badge" alt="Taxonomy"/>
   <img src="https://img.shields.io/badge/Last%20Updated-Apr%202026-red?style=for-the-badge" alt="Updated"/>
 </p>
 
-OpenClaw — the open-source, self-hosted AI agent platform created by Peter Steinberger (evolving from Clawdbot → Moltbot → OpenClaw on January 29, 2026) — has generated **53+ academic papers** and **20+ major industry reports** in under three months. This repository organizes the research landscape using a three-layer **PTA (Platform–Trust & Safety–Application)** taxonomy.
+OpenClaw — the open-source, self-hosted AI agent platform created by Peter Steinberger (evolving from Clawdbot → Moltbot → OpenClaw on January 29, 2026) — has generated **55+ academic papers** and **20+ major industry reports** in under three months. This repository organizes the research landscape using a three-layer **PTA (Platform–Trust & Safety–Application)** taxonomy.
 
 ---
 
@@ -26,10 +26,10 @@ OpenClaw — the open-source, self-hosted AI agent platform created by Peter Ste
 
 | Layer | Category | Papers | Sub-topics |
 |:-----:|:---------|:------:|:-----------|
-| 🔧 **P** | Platform & Ecosystem | 9 | Core architecture, RL training, skill supply chain |
+| 🔧 **P** | Platform & Ecosystem | 11 | Core architecture, RL training, skill supply chain |
 | 🛡️ **T** | Trust & Safety | 16 | Threat taxonomies, adversarial attacks, defenses |
 | 🌐 **A** | Application & Society | 28 | Robotics, healthcare, Moltbook dynamics, surveys |
-| | **Total** | **53** | |
+| | **Total** | **55** | |
 
 ---
 
@@ -61,7 +61,7 @@ OpenClaw — the open-source, self-hosted AI agent platform created by Peter Ste
 
 *How OpenClaw is built — core architecture extensions and skill supply chain. (9 papers)*
 
-### ⚙️ Core Architecture (3)
+### ⚙️ Core Architecture (5)
 
 <table>
 <colgroup>
@@ -77,6 +77,8 @@ OpenClaw — the open-source, self-hosted AI agent platform created by Peter Ste
 <tr><td>OpenClaw-RL: Train Any Agent Simply by Talking</td><td align="center">Mar 2026</td><td>Async RL from live interaction signals; combines evaluative and directive rewards</td><td align="center"><a href="https://arxiv.org/abs/2603.10165">Paper</a> <a href="https://github.com/Gen-Verse/OpenClaw-RL"><img src="https://img.shields.io/github/stars/Gen-Verse/OpenClaw-RL?style=social" alt="Stars"></a></td></tr>
 <tr><td>OpenCLAW-P2P: A Decentralized Framework for Collective AI Intelligence</td><td align="center">Mar 2026</td><td>Decentralized agent network with DHT, federated learning, and formal verification</td><td align="center"><a href="https://www.researchgate.net/publication/401449080">Paper</a></td></tr>
 <tr><td>Systems-Level Attack Surface of Edge Agent Deployments on IoT</td><td align="center">Feb 2026</td><td>Deployment architecture is the primary security determinant for edge agents</td><td align="center"><a href="https://arxiv.org/abs/2602.22525">Paper</a></td></tr>
+<tr><td>AgentOS: From Application Silos to a NL-Driven Data Ecosystem</td><td align="center">Mar 2026</td><td>Personal Agent OS replacing GUI with NL interaction; cites OpenClaw as exemplar</td><td align="center"><a href="https://arxiv.org/abs/2603.08938">Paper</a></td></tr>
+<tr><td>MetaClaw: Just Talk — An Agent That Meta-Learns and Evolves in the Wild</td><td align="center">Mar 2026</td><td>Continual meta-learning on OpenClaw; dynamic skill synthesis and policy optimization</td><td align="center"><a href="https://arxiv.org/abs/2603.17187">Paper</a></td></tr>
 </tbody>
 </table>
 
