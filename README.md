@@ -26,11 +26,11 @@ OpenClaw — the open-source, self-hosted AI agent platform created by Peter Ste
 
 | Layer | Category | Papers | Key Topics |
 |:-----:|:---------|:------:|:-----------|
-| L1 | Core Platform & Architecture | 4 | RL training, P2P, edge deployment, autonomous science |
+| L1 | Core Platform & Architecture | 3 | RL training, P2P, edge deployment |
 | L2 | Skill Ecosystem & Supply Chain | 6 | Formal analysis, clone detection, auditing |
 | L3 | Security & Trust | 16 | Threat taxonomies, attacks, defenses |
 | L4 | Agent Social Dynamics (Moltbook) | 18 | Network structure, safety decay, coordination |
-| L5 | Applications & Domains | 6 | Robotics, healthcare, finance, education |
+| L5 | Applications & Domains | 7 | Robotics, healthcare, finance, education, scientific research |
 | L6 | Ecosystem Perspectives | 4 | Surveys, position papers, strategy |
 | | **Total** | **54** | |
 
@@ -57,14 +57,14 @@ timeline
         Early Mar : Security paper surge
                   : Threat taxonomies (S1-S5)
                   : Clawdrain token exhaustion (A1)
-                  : OpenClaw-RL (X1)
+                  : OpenClaw-RL, RoboClaw, ROSClaw
         Mid Mar   : ClawWorm self-propagating worm (A2)
                   : Defense papers (D1-D4)
                   : NVIDIA NemoClaw at GTC
                   : SkillClone accepted at ASE 2026
         Late Mar  : Supply chain studies (E2-E4, E6)
                   : HEARTBEAT memory pollution (A4)
-                  : 190 security advisories analyzed (S4)
+                  : ClawdLab for autonomous science
     section April 2026
         Apr 2026  : 54+ papers, 20+ industry reports
                   : This survey repository launched
@@ -106,10 +106,6 @@ Papers that extend or modify the OpenClaw framework itself — new training para
 - **OpenClaw-RL: Train Any Agent Simply by Talking** - Yinjie Wang, Xuyang Chen, Xiaolong Jin, Mengdi Wang, Ling Yang. arXiv, Mar 2026.
   [[Paper](https://arxiv.org/abs/2603.10165)] [[Code](https://github.com/Gen-Verse/OpenClaw-RL) ![Stars](https://img.shields.io/github/stars/Gen-Verse/OpenClaw-RL?style=social)]
   > Fully asynchronous RL framework recovering next-state signals from live interaction; introduces Hindsight-Guided On-Policy Distillation (OPD).
-
-- **From Agent-Only Social Networks to Autonomous Scientific Research: Lessons from OpenClaw and Moltbook** - Lukas Weidener, Marko Brkic, Phillip Lee, Martin Karlsson, Kevin Noessler, Paul Kohlhaas. arXiv, Feb 2026.
-  [[Paper](https://arxiv.org/abs/2602.19810)]
-  > Multivocal literature review + design science; presents ClawdLab for autonomous scientific research with PI-led governance.
 
 - **OpenCLAW-P2P: A Decentralized Framework for Collective AI Intelligence Towards AGI** - Goodman, Al-Mayahi, Guillermo Perry (Incline Enterprising Inc.). ResearchGate, 2026.
   [[Paper](https://www.researchgate.net/publication/401449080)]
@@ -338,6 +334,10 @@ Papers that use OpenClaw to solve specific domain problems — healthcare, finan
 - **When OpenClaw Agents Learn from Each Other: Insights for Human-AI Partnership in Education** - Eason Chen et al. (Carnegie Mellon University). arXiv, Mar 2026. AIED 2026 Blue Sky Paper.
   [[Paper](https://arxiv.org/abs/2603.16663)]
   > Qualitative observations across Moltbook, The Colony, 4claw (~167,000+ agents); proposes "Learn by Teaching Your AI Agent Teammate" curriculum.
+
+- **From Agent-Only Social Networks to Autonomous Scientific Research: Lessons from OpenClaw and Moltbook** - Lukas Weidener, Marko Brkic, Phillip Lee, Martin Karlsson, Kevin Noessler, Paul Kohlhaas. arXiv, Feb 2026.
+  [[Paper](https://arxiv.org/abs/2602.19810)]
+  > Presents ClawdLab for autonomous scientific research with PI-led governance, structured adversarial critique, and hard role restrictions.
 
 <p align="right"><a href="#contents">Back to Top</a></p>
 
