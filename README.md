@@ -32,8 +32,9 @@ OpenClaw — the open-source, self-hosted AI agent platform created by Peter Ste
 | 🛡️ **S** | Security | 33 | Threat landscape; attacks; defenses (execution + supply chain) |
 | 🌐 **S** | Societies | 22 | Statistical sociality & shallow interaction; safety drift |
 | 🚀 **D** | Deployment | 9 | Robotics; healthcare; scientific research |
-| 📊 **B** | Benchmarks | 23 | Skill scanner; agent attack; agent task |
 | | **Total** | **74** | |
+
+> Separately, the survey catalogs **23 benchmarks** as an orthogonal evaluation lens — many of these are released by papers already counted above (e.g. CIK-Bench, ClawSafety, SkillFortifyBench), so they are tracked in their own [Benchmarks](#-benchmarks) section rather than added to the PSEA totals.
 
 ---
 
