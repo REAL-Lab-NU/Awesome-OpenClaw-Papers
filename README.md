@@ -451,6 +451,7 @@ OpenClaw — the open-source, self-hosted AI agent platform created by Peter Ste
 
 | Project | Description | Paper | Links |
 |:--------|:------------|:-----:|:-----:|
+| [APort Agent Guardrails](https://aport.io) | Pre-action authorization guardrails for AI agents and MCP/tool-use workflows. | Runtime authorization guardrails | https://aport.io |
 | prompt-security/clawsec | Drift detection, automated audits | Security | [![Stars](https://img.shields.io/github/stars/prompt-security/clawsec?style=social)](https://github.com/prompt-security/clawsec) |
 | ClawSecure/clawsecure-openclaw-security | 3-Layer Audit, OWASP ASI | Security | [![Stars](https://img.shields.io/github/stars/ClawSecure/clawsecure-openclaw-security?style=social)](https://github.com/ClawSecure/clawsecure-openclaw-security) |
 | adversa-ai/secureclaw | OWASP-aligned security plugin | Security | [![Stars](https://img.shields.io/github/stars/adversa-ai/secureclaw?style=social)](https://github.com/adversa-ai/secureclaw) |
