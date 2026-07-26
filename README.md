@@ -360,7 +360,7 @@ OpenClaw — the open-source, self-hosted AI agent platform created by Peter Ste
 | ClawsBench | cross-harness | 44 tasks | harness choice shapes capability and safety | [Paper](https://arxiv.org/abs/2604.05172) |
 | Claw-Eval-Live | refreshable Skills | 105 tasks | live Skills enable refreshable evaluation | [Paper](https://arxiv.org/abs/2604.28139) |
 | ClawArena | evolving information | 64 tasks | agents must revise beliefs under conflict | [Paper](https://arxiv.org/abs/2604.04202) |
-| ClawBench-153 | production websites | 153 tasks | real websites remain difficult | [Paper](https://arxiv.org/abs/2604.08523) |
+| ClawBench-153 | production websites | 153 tasks | real websites remain difficult | [Paper](https://arxiv.org/abs/2604.08523) · [Code](https://github.com/TIGER-AI-Lab/ClawBench) · [Project](https://claw-bench.com/) |
 | ClawGym-Bench | ClawHub-mined | 200 tasks | ClawHub can become a training substrate | [Paper](https://arxiv.org/abs/2604.26904) |
 | GTA-2 | checkpoint grading | 361 tasks | checkpoint grading captures long horizons | [Paper](https://arxiv.org/abs/2604.15715) |
 | SEA-Eval | sequential streams | 92 streams | efficiency matters beyond success rate | [Paper](https://arxiv.org/abs/2604.08988) |
