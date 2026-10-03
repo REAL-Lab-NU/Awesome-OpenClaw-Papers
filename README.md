@@ -11,10 +11,10 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Papers-74-blue?style=for-the-badge" alt="Papers"/>
+  <img src="https://img.shields.io/badge/Papers-75-blue?style=for-the-badge" alt="Papers"/>
   <img src="https://img.shields.io/badge/Benchmarks-23-teal?style=for-the-badge" alt="Benchmarks"/>
   <img src="https://img.shields.io/badge/Industry%20Reports-18+-orange?style=for-the-badge" alt="Reports"/>
-  <img src="https://img.shields.io/badge/Last%20Updated-May%202026-red?style=for-the-badge" alt="Updated"/>
+  <img src="https://img.shields.io/badge/Last%20Updated-Oct%202026-red?style=for-the-badge" alt="Updated"/>
 </p>
 
 <p align="center">
@@ -24,7 +24,7 @@
 > ### 📄 Read the Survey
 > **A Survey of the OpenClaw Ecosystem — From Platform Extensibility to Constraint Design** is available as a PDF in this repository: **[`OpenClaw_Survey.pdf`](OpenClaw_Survey.pdf)**.
 
-OpenClaw — the open-source, self-hosted AI agent platform created by Peter Steinberger (Clawdbot → Moltbot → OpenClaw, January 29, 2026) — has generated **74 academic papers**, **23 benchmarks**, and **18+ major industry reports** in under four months. This repository organizes the research landscape using the **PSEA (Platform–Security–Societies–Deployment)** taxonomy introduced in our survey.
+OpenClaw — the open-source, self-hosted AI agent platform created by Peter Steinberger (Clawdbot → Moltbot → OpenClaw, January 29, 2026) — has generated **75 academic papers**, **23 benchmarks**, and **18+ major industry reports**. This repository organizes the research landscape using the **PSEA (Platform–Security–Societies–Deployment)** taxonomy introduced in our survey.
 
 > **Thesis of the survey.** OpenClaw is best understood as a stress test for open personal-agent ecosystems. Its open Skills, persistent Memory, and always-on Heartbeat make capability easy to extend, but the same openness creates governance, security, social, and deployment problems. The literature converges on one recurring tradeoff: **extensibility accelerates capability growth, but trustworthy use requires explicit constraints on Skills, Memory, autonomy, domain actions, and evaluation.** The repository is organized to make this tradeoff visible at every level.
 
@@ -36,9 +36,9 @@ OpenClaw — the open-source, self-hosted AI agent platform created by Peter Ste
 |:-----:|:--------|:------:|:-----------|
 | 🔧 **P** | Platform | 10 | Agent learning → platform improvement; Skill ecosystem governance |
 | 🛡️ **S** | Security | 33 | Threat landscape; attacks; defenses (execution + supply chain) |
-| 🌐 **S** | Societies | 22 | Statistical sociality & shallow interaction; safety drift |
+| 🌐 **S** | Societies | 23 | Statistical sociality & shallow interaction; safety drift |
 | 🚀 **D** | Deployment | 9 | Robotics; healthcare; scientific research |
-| | **Total** | **74** | |
+| | **Total** | **75** | |
 
 > Separately, the survey catalogs **23 benchmarks** as an orthogonal evaluation lens — many of these are released by papers already counted above (e.g. CIK-Bench, ClawSafety, SkillFortifyBench), so they are tracked in their own [Benchmarks](#-benchmarks) section rather than added to the PSEA totals.
 
@@ -55,7 +55,7 @@ OpenClaw — the open-source, self-hosted AI agent platform created by Peter Ste
   - [Attacks](#-attacks-6)
   - [Defenses (execution + supply chain)](#-defenses-15)
 - [🌐 Societies](#-societies)
-  - [Statistical Sociality & Shallow Interaction](#-statistical-sociality--shallow-interaction-17)
+  - [Statistical Sociality & Shallow Interaction](#-statistical-sociality--shallow-interaction-18)
   - [Human-Seeded Emergence & Safety Drift](#-human-seeded-emergence--safety-drift-5)
 - [🚀 Deployment](#-deployment)
   - [Robotics](#-robotics-5)
@@ -215,9 +215,9 @@ OpenClaw — the open-source, self-hosted AI agent platform created by Peter Ste
 
 ## 🌐 Societies
 
-*Moltbook — a Reddit-style platform of OpenClaw-powered AI agents — became the first large-scale natural experiment in agent-only social interaction. The literature reveals a consistent gap between **looking social** and **being socially reliable**. (22 papers)*
+*Moltbook — a Reddit-style platform of OpenClaw-powered AI agents — became the first large-scale natural experiment in agent-only social interaction. The literature reveals a consistent gap between **looking social** and **being socially reliable**. (23 papers)*
 
-### 📊 Statistical Sociality & Shallow Interaction (17)
+### 📊 Statistical Sociality & Shallow Interaction (18)
 
 *At the aggregate level, Moltbook reproduces familiar online-community statistics. At the interaction level, it is dominated by shallow replies, duplicate content, and extreme attention concentration.*
 
@@ -230,6 +230,7 @@ OpenClaw — the open-source, self-hosted AI agent platform created by Peter Ste
 <tr><td>Social Simulacra in the Wild: AI vs Human Communities</td><td align="center">Mar 2026</td><td>Participation far more unequal than Reddit; communities share authors, not norms</td><td align="center"><a href="https://arxiv.org/abs/2603.16128">Paper</a></td></tr>
 <tr><td>Let There Be Claws: Early SNA of AI Agents on Moltbook</td><td align="center">Feb 2026</td><td>Extreme attention concentration; posting volume and content quality decoupled</td><td align="center"><a href="https://arxiv.org/abs/2602.20044">Paper</a></td></tr>
 <tr><td>Exploring Silicon-Based Societies</td><td align="center">Feb 2026</td><td>"Data-driven silicon sociology" framework; emergent community archetypes</td><td align="center"><a href="https://arxiv.org/abs/2602.02613">Paper</a></td></tr>
+<tr><td>Frame Entrepreneurs in an AI Agent Community: Concentrated Identity-Claim Production on Moltbook</td><td align="center">Apr 2026</td><td>Identity-claim analysis of 1,706 posts; a small subset of authors produces most strong claims</td><td align="center"><a href="https://arxiv.org/abs/2604.27271">Paper</a></td></tr>
 <tr><td>'Humans welcome to observe': A First Look at Moltbook</td><td align="center">Feb 2026</td><td>First measurement study with topic taxonomy and toxicity analysis</td><td align="center"><a href="https://arxiv.org/abs/2602.10127">Paper</a></td></tr>
 <tr><td>The Rise of AI Agent Communities</td><td align="center">Feb 2026</td><td>Discourse analysis showing functional utility drives agent influence</td><td align="center"><a href="https://arxiv.org/abs/2602.12634">Paper</a></td></tr>
 <tr><td>Emergence of Fragility in LLM-based Social Networks</td><td align="center">Mar 2026</td><td>Core-periphery structure reveals vulnerability to targeted hub attacks</td><td align="center"><a href="https://arxiv.org/abs/2603.23279">Paper</a></td></tr>
