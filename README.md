@@ -12,7 +12,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Papers-74-blue?style=for-the-badge" alt="Papers"/>
-  <img src="https://img.shields.io/badge/Benchmarks-23-teal?style=for-the-badge" alt="Benchmarks"/>
+  <img src="https://img.shields.io/badge/Benchmarks-24-teal?style=for-the-badge" alt="Benchmarks"/>
   <img src="https://img.shields.io/badge/Industry%20Reports-18+-orange?style=for-the-badge" alt="Reports"/>
   <img src="https://img.shields.io/badge/Last%20Updated-May%202026-red?style=for-the-badge" alt="Updated"/>
 </p>
@@ -64,7 +64,7 @@ OpenClaw — the open-source, self-hosted AI agent platform created by Peter Ste
 - [📊 Benchmarks](#-benchmarks)
   - [Skill Scanner — before installation](#-skill-scanner-benchmarks-4--before-installation)
   - [Agent Attack — during execution](#-agent-attack-benchmarks-7--during-execution)
-  - [Agent Task — after deployment](#-agent-task-benchmarks-12--after-deployment)
+  - [Agent Task — after deployment](#-agent-task-benchmarks-13--after-deployment)
 - [🔭 Open Problems & Future Directions](#-open-problems--future-directions)
 - [📚 Surveys & Position Papers](#-surveys--position-papers)
 
@@ -350,7 +350,7 @@ OpenClaw — the open-source, self-hosted AI agent platform created by Peter Ste
 | ATBench-Claw | trajectory safety | 11 categories | trajectory audits expose runtime violations | [Paper](https://arxiv.org/abs/2604.14858) |
 | AgentHazard | cross-harness harm | 2,653 cases | dependency hooks create cross-harness risk | [Paper](https://arxiv.org/abs/2604.02947) |
 
-### 🎯 Agent Task Benchmarks (12) — after deployment
+### 🎯 Agent Task Benchmarks (13) — after deployment
 
 *Can the agent complete useful work under realistic, evolving, or long-horizon conditions?*
 
@@ -368,6 +368,7 @@ OpenClaw — the open-source, self-hosted AI agent platform created by Peter Ste
 | ClawEnvKit | generated envs | 1,040 envs | environments can be generated automatically | [Paper](https://arxiv.org/abs/2604.18543) |
 | WildClawBench | in-the-wild traces | — | Skill evolution must be tested in the wild | [Paper](https://arxiv.org/abs/2604.08377) |
 | SkillLearnBench | Skill generation | 20 tasks | Skill learning requires continual evaluation | [Paper](https://arxiv.org/abs/2604.20087) |
+| EC2-Bench | edge–cloud collaboration | 128 tasks | with stronger edges, strategies converge in performance but not in privacy exposure | [Paper](https://arxiv.org/abs/2610.17816) |
 
 > Also: **SkillTester** ([Paper](https://arxiv.org/abs/2603.28815)) proposes paired utility-and-security scoring for Skill evaluation but does not ship an empirical evaluation set.
 
